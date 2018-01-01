@@ -1,8 +1,0 @@
-[KSplash Theme: Neptune-Circle]
-Name = Neptune-Circle Splash Screen for KDE.
-Description = Neptune Splash Screen based upon KStarboard by Codicem
-Version = 1.0
-Author = Leszek Lesner
-
-# Theme behaviour settings.
-Engine = KSplashX

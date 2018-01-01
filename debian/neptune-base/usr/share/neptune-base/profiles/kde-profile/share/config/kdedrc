@@ -1,5 +1,0 @@
-[Module-randrmonitor]
-autoload=false 
-
-[Module-kscreen]
-autoload=true 
