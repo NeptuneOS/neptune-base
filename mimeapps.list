@@ -1,0 +1,20 @@
+[Added Associations]
+audio/mpeg=vlc.desktop
+audio/flac=vlc.desktop;audacity.desktop;kde4-amarok.desktop
+audio/midi=vlc.desktop;
+audio/mp4=vlc.desktop;audacity.desktop;kde4-amarok.desktop;
+audio/ogg=vlc.desktop;ghb.desktop;kde4-amarok.desktop;kde4-amarok_containers.desktop;audacity.desktop;
+audio/x-ms-wma=vlc.desktop;audacity.desktop;kde4-amarok.desktop;kde4-amarok_containers.desktop;
+audio/x-vorbis+ogg=vlc.desktop;audacity.desktop;kde4-amarok.desktop;kde4-amarok_containers.desktop;
+audio/x-wav=vlc.desktop;audacity.desktop;kde4-amarok.desktop;
+video/x-matroska=vlc.desktop;
+video/mp4=vlc.desktop;
+video/ogg=vlc.desktop;
+video/quicktime=vlc.desktop;
+video/webm=vlc.desktop;
+video/x-flv=vlc.desktop;
+video/x-msvideo=vlc.desktop;
+application/x-bittorrent=kde4-ktorrent.desktop;kde4-kget.desktop;
+application/x-deb=kde4-apper_installer.desktop;kde4-qapt-deb-installer.desktop;kde4-ark.desktop;
+application/x-java-archive=openjdk-6-java.desktop;kde4-ark.desktop;
+application/xml=kde4-kwrite.desktop;kde4-kfmclient_html.desktop;

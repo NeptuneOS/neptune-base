@@ -1,0 +1,567 @@
+{
+   "apps": {
+      "shortcuts_have_been_created": true
+   },
+   "bookmark_editor": {
+      "expanded_nodes": [  ]
+   },
+   "browser": {
+      "check_default_browser": false,
+      "clear_data": {
+         "content_licenses": true,
+         "form_data": true,
+         "hosted_apps_data": true,
+         "passwords": true,
+         "time_period": 4
+      },
+      "clear_lso_data_enabled": true,
+      "last_clear_browsing_data_time": "13051098143689465",
+      "last_known_google_url": "https://www.google.de/",
+      "last_prompted_google_url": "https://www.google.de/",
+      "ntp": {
+         "promo_image_remaining": 3,
+         "promo_line_remaining": 3
+      },
+      "pepper_flash_settings_enabled": true,
+      "window_placement": {
+         "bottom": 649,
+         "left": 0,
+         "maximized": true,
+         "right": 1366,
+         "top": 22,
+         "work_area_bottom": 649,
+         "work_area_left": 0,
+         "work_area_right": 1366,
+         "work_area_top": 0
+      }
+   },
+   "countryid_at_install": 17477,
+   "default_apps_install_state": 2,
+   "default_search_provider": {
+      "alternate_urls": [ "{google:baseURL}#q={searchTerms}", "{google:baseURL}search#q={searchTerms}", "{google:baseURL}webhp#q={searchTerms}" ],
+      "enabled": true,
+      "encodings": "UTF-8",
+      "icon_url": "http://www.google.com/favicon.ico",
+      "id": "2",
+      "image_url": "{google:baseURL}searchbyimage/upload",
+      "image_url_post_params": "encoded_image={google:imageThumbnail},image_url={google:imageURL},sbisrc={google:imageSearchSource},original_width={google:imageOriginalWidth},original_height={google:imageOriginalHeight}",
+      "instant_url": "{google:baseURL}webhp?sourceid=chrome-instant&{google:RLZ}{google:forceInstantResults}{google:instantExtendedEnabledParameter}{google:ntpIsThemedParameter}{google:omniboxStartMarginParameter}ie={inputEncoding}",
+      "instant_url_post_params": "",
+      "keyword": "google.de",
+      "name": "Google",
+      "new_tab_url": "{google:baseURL}_/chrome/newtab?{google:RLZ}{google:instantExtendedEnabledParameter}{google:ntpIsThemedParameter}ie={inputEncoding}",
+      "prepopulate_id": "1",
+      "search_terms_replacement_key": "espv",
+      "search_url": "{google:baseURL}search?q={searchTerms}&{google:RLZ}{google:originalQueryForSuggestion}{google:assistedQueryStats}{google:searchFieldtrialParameter}{google:bookmarkBarPinned}{google:searchClient}{google:sourceId}{google:instantExtendedEnabledParameter}{google:omniboxStartMarginParameter}ie={inputEncoding}",
+      "search_url_post_params": "",
+      "suggest_url": "{google:baseSuggestURL}search?{google:searchFieldtrialParameter}client={google:suggestClient}&gs_ri={google:suggestRid}&xssi=t&q={searchTerms}&{google:cursorPosition}{google:currentPageUrl}{google:pageClassification}sugkey={google:suggestAPIKeyParameter}",
+      "suggest_url_post_params": ""
+   },
+   "dns_prefetching": {
+      "host_referral_list": [ 2 ],
+      "startup_list": [ 1 ]
+   },
+   "download": {
+      "directory_upgrade": true,
+      "extensions_to_open": ""
+   },
+   "extensions": {
+      "alerts": {
+         "initialized": true
+      },
+      "autoupdate": {
+         "last_check": "12917733076277787",
+         "next_check": "13051098626865647"
+      },
+      "blacklistupdate": {
+         "lastpingday": "12917689200581947"
+      },
+      "chrome_url_overrides": {
+         "bookmarks": [ "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
+      },
+      "known_disabled": [  ],
+      "last_chrome_version": "35.0.1916.153",
+      "settings": {
+         "ahfgeienlihckogmohjhadlkjgocpleb": {
+            "active_permissions": {
+               "api": [ "management", "webstorePrivate" ],
+               "manifest_permissions": [  ]
+            },
+            "app_launcher_ordinal": "t",
+            "content_settings": [  ],
+            "creation_flags": 1,
+            "events": [  ],
+            "from_bookmark": false,
+            "from_webstore": false,
+            "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "install_time": "13042581458473625",
+            "location": 5,
+            "manifest": {
+               "app": {
+                  "launch": {
+                     "web_url": "https://chrome.google.com/webstore"
+                  },
+                  "urls": [ "https://chrome.google.com/webstore" ]
+               },
+               "description": "Chrome Web Store",
+               "icons": {
+                  "128": "webstore_icon_128.png",
+                  "16": "webstore_icon_16.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtl3tO0osjuzRsf6xtD2SKxPlTfuoy7AWoObysitBPvH5fE1NaAA1/2JkPWkVDhdLBWLaIBPYeXbzlHp3y4Vv/4XG+aN5qFE3z+1RU/NqkzVYHtIpVScf3DjTYtKVL66mzVGijSoAIwbFCC3LpGdaoe6Q1rSRDp76wR6jjFzsYwQIDAQAB",
+               "name": "Store",
+               "permissions": [ "webstorePrivate", "management" ],
+               "version": "0.2"
+            },
+            "page_ordinal": "n",
+            "path": "/usr/lib/chromium/resources/web_store",
+            "preferences": {
+
+            },
+            "regular_only_preferences": {
+
+            },
+            "was_installed_by_default": false
+         },
+         "bepbmhgboaologfdajaanbcjmnhjmhfn": {
+            "disable_reasons": 1,
+            "state": 0
+         },
+         "eemcgdkfndhakfknompkggombfjjjeno": {
+            "active_permissions": {
+               "api": [ "bookmarks", "bookmarkManagerPrivate", "metricsPrivate", "systemPrivate", "tabs" ],
+               "explicit_host": [ "chrome://favicon/*", "chrome://resources/*" ],
+               "manifest_permissions": [  ]
+            },
+            "content_settings": [  ],
+            "creation_flags": 1,
+            "events": [  ],
+            "from_bookmark": false,
+            "from_webstore": false,
+            "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "initial_keybindings_set": true,
+            "install_time": "13042581458454956",
+            "location": 5,
+            "manifest": {
+               "chrome_url_overrides": {
+                  "bookmarks": "main.html"
+               },
+               "content_security_policy": "object-src 'none'; script-src chrome://resources 'self'",
+               "description": "Bookmark Manager",
+               "icons": {
+
+               },
+               "incognito": "split",
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQcByy+eN9jzazWF/DPn7NW47sW7lgmpk6eKc0BQM18q8hvEM3zNm2n7HkJv/R6fU+X5mtqkDuKvq5skF6qqUF4oEyaleWDFhd1xFwV7JV+/DU7bZ00w2+6gzqsabkerFpoP33ZRIw7OviJenP0c0uWqDWF8EGSyMhB3txqhOtiQIDAQAB",
+               "manifest_version": 2,
+               "name": "Bookmark Manager",
+               "permissions": [ "bookmarks", "bookmarkManagerPrivate", "metricsPrivate", "systemPrivate", "tabs", "chrome://favicon/", "chrome://resources/" ],
+               "version": "0.1"
+            },
+            "path": "/usr/lib/chromium/resources/bookmark_manager",
+            "preferences": {
+
+            },
+            "regular_only_preferences": {
+
+            },
+            "was_installed_by_default": false
+         },
+         "ennkphjdgehloodpbhlhldgbnhmacadg": {
+            "active_permissions": {
+               "api": [  ],
+               "explicit_host": [ "chrome://settings-frame/*" ],
+               "manifest_permissions": [  ]
+            },
+            "content_settings": [  ],
+            "creation_flags": 1,
+            "events": [ "app.runtime.onLaunched" ],
+            "from_bookmark": false,
+            "from_webstore": false,
+            "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "initial_keybindings_set": true,
+            "install_time": "13051098023489656",
+            "location": 5,
+            "manifest": {
+               "app": {
+                  "background": {
+                     "scripts": [ "settings_app.js" ]
+                  }
+               },
+               "description": "Settings",
+               "display_in_launcher": false,
+               "icons": {
+                  "128": "settings_app_icon_128.png",
+                  "16": "settings_app_icon_16.png",
+                  "32": "settings_app_icon_32.png",
+                  "48": "settings_app_icon_48.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDoVDPGX6fvKPVVgc+gnkYlGqHuuapgFDyKhsy4z7UzRLO/95zXPv8h8e5EacqbAQJLUbP6DERH5jowyNEYVxq9GJyntJMwP1ejvoz/52hnY3CCGGCmttmKzzpp5zwLuq3iZf8bslwywfflNUYtaCFSDa0TtrBZz0aOPrAAd/AhNwIDAQAB",
+               "manifest_version": 2,
+               "name": "Settings",
+               "permissions": [ "chrome://settings-frame/" ],
+               "version": "0.2"
+            },
+            "path": "/usr/lib/chromium/resources/settings_app",
+            "preferences": {
+
+            },
+            "regular_only_preferences": {
+
+            },
+            "running": false,
+            "was_installed_by_default": false,
+            "was_installed_by_oem": false
+         },
+         "mfehgcgbbipciphmccgaenjidiccnmng": {
+            "active_permissions": {
+               "api": [ "cloudPrintPrivate" ],
+               "manifest_permissions": [  ]
+            },
+            "content_settings": [  ],
+            "creation_flags": 1,
+            "events": [  ],
+            "from_bookmark": false,
+            "from_webstore": false,
+            "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "install_time": "13042581458472432",
+            "location": 5,
+            "manifest": {
+               "app": {
+                  "launch": {
+                     "web_url": "https://www.google.com/cloudprint"
+                  },
+                  "urls": [ "https://www.google.com/cloudprint/enable_chrome_connector" ]
+               },
+               "description": "Cloud Print",
+               "display_in_launcher": false,
+               "icons": {
+
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDqOhnwk4+HXVfGyaNsAQdU/js1Na56diW08oF1MhZiwzSnJsEaeuMN9od9q9N4ZdK3o1xXOSARrYdE+syV7Dl31nf6qz3A6K+D5NHe6sSB9yvYlIiN37jdWdrfxxE0pRYEVYZNTe3bzq3NkcYJlOdt1UPcpJB+isXpAGUKUvt7EQIDAQAB",
+               "name": "Cloud Print",
+               "permissions": [ "cloudPrintPrivate" ],
+               "version": "0.1"
+            },
+            "path": "/usr/lib/chromium/resources/cloud_print",
+            "preferences": {
+
+            },
+            "regular_only_preferences": {
+
+            },
+            "was_installed_by_default": false
+         },
+         "mgndgikekgjfcpckkfioiadnlibdjbkf": {
+            "active_permissions": {
+               "api": [  ],
+               "manifest_permissions": [  ]
+            },
+            "app_launcher_ordinal": "k",
+            "content_settings": [  ],
+            "creation_flags": 1,
+            "events": [  ],
+            "from_bookmark": false,
+            "from_webstore": false,
+            "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "install_time": "13051098023487940",
+            "location": 5,
+            "manifest": {
+               "app": {
+                  "launch": {
+                     "web_url": "http://THIS-WILL-BE-REPLACED"
+                  }
+               },
+               "description": "Chrome as an app",
+               "display_in_launcher": true,
+               "display_in_new_tab_page": false,
+               "icons": {
+                  "128": "product_logo_128.png",
+                  "16": "product_logo_16.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDNuYLEQ1QPMcc5HfWI/9jiEf6FdJWqEtgRmIeI7qtjPLBM5oje+Ny2E2mTAhou5qdJiO2CHWdU1DQXY2F7Zu2gZaKZgHLfK4WimHxUT5Xd9/aro/R9PCzjguM1BLusiWYc9xlj1IsZpyiN1hcjU7SCnBhv1feQlv2WSB5KRiXwhQIDAQAB",
+               "name": "Chromium",
+               "version": "0.1"
+            },
+            "page_ordinal": "n",
+            "path": "/usr/lib/chromium/resources/chrome_app",
+            "preferences": {
+
+            },
+            "regular_only_preferences": {
+
+            },
+            "was_installed_by_default": false,
+            "was_installed_by_oem": false
+         },
+         "nmmhkkegccagdldgiimedpiccmgmieda": {
+            "ack_external": true,
+            "active_permissions": {
+               "api": [ "identity", "webRequestInternal", "webview" ],
+               "explicit_host": [ "https://checkout.google.com/*", "https://sandbox.google.com/*", "https://www.google.com/*", "https://www.googleapis.com/*" ],
+               "manifest_permissions": [  ]
+            },
+            "content_settings": [  ],
+            "creation_flags": 137,
+            "events": [ "app.runtime.onLaunched" ],
+            "from_bookmark": false,
+            "from_webstore": true,
+            "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "initial_keybindings_set": true,
+            "install_time": "13042581488513534",
+            "lastpingday": "13042537216086172",
+            "location": 10,
+            "manifest": {
+               "app": {
+                  "background": {
+                     "scripts": [ "craw_background.js" ]
+                  }
+               },
+               "current_locale": "de",
+               "default_locale": "en",
+               "description": "Google Wallet für digitale Produkte",
+               "display_in_launcher": false,
+               "display_in_new_tab_page": false,
+               "icons": {
+                  "128": "images/icon_128.png",
+                  "16": "images/icon_16.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrKfMnLqViEyokd1wk57FxJtW2XXpGXzIHBzv9vQI/01UsuP0IV5/lj0wx7zJ/xcibUgDeIxobvv9XD+zO1MdjMWuqJFcKuSS4Suqkje6u+pMrTSGOSHq1bmBVh0kpToN8YoJs/P/yrRd7FEtAXTaFTGxQL4C385MeXSjaQfiRiQIDAQAB",
+               "manifest_version": 2,
+               "minimum_chrome_version": "29",
+               "name": "Google Wallet",
+               "oauth2": {
+                  "auto_approve": true,
+                  "client_id": "203784468217.apps.googleusercontent.com",
+                  "scopes": [ "https://www.googleapis.com/auth/sierra", "https://www.googleapis.com/auth/sierrasandbox", "https://www.googleapis.com/auth/chromewebstore", "https://www.googleapis.com/auth/chromewebstore.readonly" ]
+               },
+               "permissions": [ "identity", "webview", "https://checkout.google.com/", "https://sandbox.google.com/checkout/", "https://www.google.com/", "https://www.googleapis.com/*" ],
+               "update_url": "https://clients2.google.com/service/update2/crx",
+               "version": "0.0.6.1"
+            },
+            "path": "nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0",
+            "preferences": {
+
+            },
+            "regular_only_preferences": {
+
+            },
+            "running": false,
+            "state": 1,
+            "was_installed_by_default": true
+         },
+         "pafkbggdmjlpgkdkcbjmhmfcdpncadgh": {
+            "active_permissions": {
+               "api": [ "alarms", "identity", "metricsPrivate", "notifications", "pushMessaging", "storage", "tabs", "webstorePrivate" ],
+               "explicit_host": [ "\u003Call_urls>", "chrome://favicon/*" ],
+               "manifest_permissions": [  ]
+            },
+            "content_settings": [  ],
+            "creation_flags": 1,
+            "events": [ "alarms.onAlarm", "identity.onSignInChanged", "location.onLocationUpdate", "notifications.onButtonClicked", "notifications.onClicked", "notifications.onClosed", "notifications.onPermissionLevelChanged", "notifications.onShowSettings", "pushMessaging.onMessage", "runtime.onInstalled", "runtime.onStartup", "runtime.onSuspend", "types.private.ChromeDirectSetting.googlegeolocationaccess.enabled.onChange" ],
+            "from_bookmark": false,
+            "from_webstore": false,
+            "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "initial_keybindings_set": true,
+            "install_time": "13042581458474414",
+            "location": 5,
+            "manifest": {
+               "background": {
+                  "persistent": false,
+                  "scripts": [ "utility.js", "cards.js", "background.js" ]
+               },
+               "description": "Integrates Google Now into Chrome.",
+               "icons": {
+                  "128": "images/icon128.png",
+                  "16": "images/icon16.png",
+                  "48": "images/icon48.png"
+               },
+               "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkhqJr32OFD/bMXW4Md7jMfd7LbwHXVc6x5bBQG5U+dloofoxrICDR20yur/40mQ8O//0sS1b8srvbab1CRlSrxoNCr9T80NAkfzx0gHyVS+p1Zow+1FzLMu9PiGwwFyN80HIB7GI/dIa0wC9K/2OrrzcHEhVH96DacTtWQqjfDVtZPjT7Xwv23dgoWcpbkRC86jMJot3dmX9xnn0KzoVc9gDOHSIkBLbkkr6Sp3LGXCCM4L0DJgxdFwaLr5WBzgC3y5x0/wwPIwN4PtIaK3BhH6njlksfnKwwIJ9iRT41V4BqbWu4mszO/7VJ3HJyw2DBpIc2grU9ZRRxrV3fRQG4wIDAQAB",
+               "manifest_version": 2,
+               "name": "Google Now",
+               "oauth2": {
+                  "auto_approve": true,
+                  "scopes": [ "https://www.googleapis.com/auth/googlenow" ]
+               },
+               "optional_permissions": [ "background" ],
+               "permissions": [ "alarms", "identity", "location", "metricsPrivate", "notifications", "preferencesPrivate", "pushMessaging", "storage", "tabs", "webstorePrivate", "\u003Call_urls>" ],
+               "version": "1.2.0.1"
+            },
+            "path": "/usr/lib/chromium/resources/google_now",
+            "preferences": {
+
+            },
+            "regular_only_preferences": {
+
+            },
+            "was_installed_by_default": false
+         },
+         "pdongokkdiclimbompodchjpdglpfemg": {
+            "active_permissions": {
+               "api": [  ],
+               "manifest_permissions": [  ]
+            },
+            "content_settings": [  ],
+            "creation_flags": 9,
+            "events": [  ],
+            "from_bookmark": false,
+            "from_webstore": true,
+            "granted_permissions": {
+               "api": [  ],
+               "manifest_permissions": [  ]
+            },
+            "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "install_time": "13042581751973751",
+            "location": 1,
+            "manifest": {
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC0jx1yEQ4S8ywYACSgmmW7fsulbqDlBDrFeyuXKVaJpZmxTolbekig7X3Xvx2OKBSYpGXmDjZO2dZXpMn+v2UBaCa3z95yZlfJ+x2/NRpHcK2UiVBSWNJrzo6ycVqwScOFbFcL20TYnlnvDyHB3n2ptEZh4EkNgMDWz3L1545y4QIDAQAB",
+               "name": "eGtk Chrome/ium Theme",
+               "theme": {
+                  "colors": {
+                     "bookmark_text": [ 68, 68, 68 ],
+                     "button_background": [ 0, 0, 0, 0 ],
+                     "control_background": [ 0, 0, 0, 0 ],
+                     "frame": [ 192, 192, 192 ],
+                     "frame_inactive": [ 223, 223, 223 ],
+                     "frame_incognito": [ 136, 136, 136 ],
+                     "frame_incognito_inactive": [ 204, 204, 204 ],
+                     "ntp_background": [ 250, 250, 250 ],
+                     "ntp_header": [ 119, 119, 119 ],
+                     "ntp_link": [ 6, 55, 116 ],
+                     "ntp_section": [ 224, 224, 224 ],
+                     "ntp_section_link": [ 6, 55, 116 ],
+                     "ntp_section_text": [ 51, 51, 51 ],
+                     "ntp_text": [ 51, 51, 51 ],
+                     "tab_background_text": [ 85, 85, 85 ],
+                     "tab_text": [ 51, 51, 51 ],
+                     "toolbar": [ 223, 223, 223 ]
+                  },
+                  "images": {
+                     "theme_frame": "images/theme_frame.png",
+                     "theme_toolbar": "images/theme_toolbar.png"
+                  },
+                  "properties": {
+                     "ntp_background_alignment": "bottom",
+                     "ntp_background_repeat": "no-repeat"
+                  },
+                  "tints": {
+                     "background_tab": [ -1, 0, 0.7 ],
+                     "buttons": [ -1, -1, -1 ],
+                     "frame": [ -1, -1, -1 ],
+                     "frame_inactive": [ -1, -1, 0.75 ],
+                     "frame_incognito": [ -1, 0.2, 0.35 ],
+                     "frame_incognito_inactive": [ -1, 0.3, 0.6 ]
+                  }
+               },
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "1"
+            },
+            "path": "pdongokkdiclimbompodchjpdglpfemg/1_0",
+            "preferences": {
+
+            },
+            "regular_only_preferences": {
+
+            },
+            "state": 1,
+            "was_installed_by_default": false
+         }
+      },
+      "theme": {
+         "id": "pdongokkdiclimbompodchjpdglpfemg",
+         "pack": "/home/user/.config/chromium/Default/Extensions/pdongokkdiclimbompodchjpdglpfemg/1_0/Cached Theme.pak",
+         "use_system": false
+      }
+   },
+   "homepage": "http://www.zevenos.com/",
+   "homepage_is_newtabpage": false,
+   "invalidator": {
+      "client_id": "gQ1UqmoXgDRnqNMXhvXmOQ=="
+   },
+   "media": {
+      "device_id_salt": "mBYusnf8RJ9dwnp4Z/70QQ=="
+   },
+   "net": {
+      "http_server_properties": {
+         "servers": {
+
+         },
+         "version": 2
+      }
+   },
+   "ntp": {
+      "pref_version": 1,
+      "shown_sections": 29,
+      "tips_cache": {
+         "current_tip": 2,
+         "tips": [ "Sie können Google Chrome über die Befehlszeile steuern, indem Sie \u003Cspan class=\"code\">man google-chrome\u003C/span> in einem Terminal ausführen.", "Klicken Sie mit der mittleren Maustaste auf \"Neuer Tab\", um eine URL aus der Zwischenablage aufzurufen.", "Gestalten Sie Google Chrome mit individuellen Designs! In unserer \u003Ca href=\"https://tools.google.com/chrome/intl/de/themes/index.html\" target=\"_blank\">Designgalerie\u003C/a> finden Sie eine Auswahl an Designs.", "Gestalten Sie Google Chrome mit individuellen Designs! In unserer \u003Ca href=\"https://tools.google.com/chrome/intl/de/themes/index.html\" target=\"_blank\">Designgalerie\u003C/a> finden Sie spezielle Künstlerdesigns.", "Ordnen Sie Ihre Tabs an, wie es Ihnen gefällt. Klicken Sie auf einen Tab und ziehen Sie ihn oben im Browserfenster an eine andere Position. Weitere Informationen zur \u003Ca href=\"http://www.google.com/support/chrome/bin/answer.py?hl=de&answer=95622&ctx=tips\">Verwendung von Tabs\u003C/a>", "Drücken Sie \u003Cstrong>Strg+T\u003C/strong>, um einen neuen Tab zu öffnen. Weitere \u003Ca href=\"http://www.google.com/support/chrome/bin/answer.py?hl=de&answer=95743&ctx=tip\">Tastaturkürzel\u003C/a>", "Geben Sie zum Durchsuchen einer Website über die Adressleiste die Webadresse der Site ein und drücken Sie bei Aufforderung die \u003Cstrong>Tabulatortaste\u003C/strong>. Weitere \u003Ca href=\"http://www.google.com/support/chrome/bin/answer.py?hl=de&answer=95655&ctx=tip\">Suchtipps\u003C/a>", "Sie möchten die aktuelle Seite schnell durchsuchen? Drücken Sie \u003Cstrong>Strg+F\u003C/strong>, um die Suchleiste zu öffnen. Weitere Informationen zur \u003Ca href=\"http://www.google.com/support/chrome/bin/answer.py?hl=de&answer=95635&ctx=tip\">Verwendung der Suchleiste\u003C/a>", "Drücken Sie \u003Cstrong>Strg+S\u003C/strong>, um die aktuelle Webseite zu speichern. Weitere \u003Ca href=\"http://www.google.com/support/chrome/bin/answer.py?hl=de&answer=95743&ctx=tip\">Tastaturkürzel\u003C/a>", "Sie können einen Tab aus der Tableiste ziehen, um ihn in einem neuen Fenster zu öffnen. Weitere Informationen zur \u003Ca href=\"http://www.google.com/support/chrome/bin/answer.py?hl=de&answer=95622&ctx=tips\">Verwendung von Tabs\u003C/a>", "Drücken Sie \u003Cstrong>Strg+Umschalttaste+N\u003C/strong>, um ein neues Fenster im Modus für anonymes Browsen zu öffnen. Webseiten, die Sie im anonymen Modus besuchen, werden nicht in Ihrem Browserverlauf gespeichert. \u003Ca href=\"http://www.google.com/support/chrome/bin/answer.py?answer=95464&hl=de&ctx=tip\">Weitere Informationen\u003C/a>", "Drücken Sie \u003Cstrong>Strg+O\u003C/strong>, um eine Datei im Browser zu öffnen. Weitere \u003Ca href=\"http://www.google.com/support/chrome/bin/answer.py?hl=de&answer=95743&ctx=tip\">Tastaturkürzel\u003C/a>", "Drücken Sie \u003Cstrong>F11\u003C/strong>, um zum Vollbildmodus zu wechseln. Weitere \u003Ca href=\"http://www.google.com/support/chrome/bin/answer.py?hl=de&answer=95743&ctx=tip\">Tastaturkürzel\u003C/a>", "Klicken Sie auf den Stern neben der Adressleiste, um ein Lesezeichen für die aktuelle Seite zu erstellen. Weitere \u003Ca href=\"http://www.google.com/support/chrome/bin/answer.py?hl=de&answer=95739&ctx=tip\">Tricks zum Erstellen von Lesezeichen\u003C/a>", "Möchten Sie die Miniaturbilder auf der Seite \"Neuer Tab\" ausblenden? Klicken Sie oben auf der Seite auf das Symbol für die Miniaturansichten. Weitere Informationen zum \u003Ca href=\"http://www.google.com/support/chrome/bin/answer.py?answer=95451&hl=de&ctx=tip\">Ändern der Seitendarstellung\u003C/a>", "Drücken Sie \u003Cstrong>Strg+Umschalttaste+T\u003C/strong>, um den zuletzt geschlossenen Tab wieder zu öffnen. Durch wiederholtes Drücken dieser Tastenkombination können Sie weitere geschlossene Tabs erneut öffnen. Weitere \u003Ca href=\"http://www.google.com/support/chrome/bin/answer.py?hl=de&answer=95743&ctx=tip\">Tastaturkürzel\u003C/a>", "Sie möchten keine Spuren Ihres Suchverlaufs hinterlassen? Surfen Sie durch das Internet im anonymen Modus. \u003Ca href=\"http://www.google.com/support/chrome/bin/answer.py?answer=95464&hl=de&ctx=tip\">Weitere Informationen\u003C/a>", "Haben Sie versehentlich ein Fenster mit mehreren Tabs geschlossen? Im Bereich \u003Cstrong>Kürzlich geschlossen\u003C/strong> der Seite \"Neuer Tab\" finden Sie sie wieder.", "Fügen Sie neben der Adressleiste eine Schaltfläche hinzu, mit der Sie direkt zu Ihrer Homepage gelangen. \u003Ca href=\"http://www.google.com/support/chrome/bin/answer.py?answer=95314&hl=de&ctx=tip\">Weitere Informationen\u003C/a>", "Suchen Sie direkt über die Adressleiste. Geben Sie einen Suchbegriff ein und drücken Sie \u003Cstrong>Enter\u003C/strong>. Die Suchergebnisse werden Ihnen sofort angezeigt. Weitere \u003Ca href=\"http://www.google.com/support/chrome/bin/answer.py?hl=de&answer=95655&ctx=tip\">Suchtipps\u003C/a>", "Drücken Sie \u003Cstrong>Strg+B\u003C/strong>, um Ihre Lesezeichenleiste unter der Adressleiste zu verankern. Weitere \u003Ca href=\"http://www.google.com/support/chrome/bin/answer.py?hl=de&answer=95743&ctx=tip\">Tastaturkürzel\u003C/a>", "Drücken Sie \u003Cstrong>F6\u003C/strong>, um den Cursor in der Adressleiste zu platzieren. Weitere \u003Ca href=\"http://www.google.com/support/chrome/bin/answer.py?hl=de&answer=95743&ctx=tip\">Tastaturkürzel\u003C/a>" ],
+         "topic_id": "25688"
+      },
+      "tips_cache_update": "1273258658.207794",
+      "tips_server": "https://clients2.google.com/tools/service/npredir?r=chrometips_linux&hl=de"
+   },
+   "pinned_tabs": [  ],
+   "plugins": {
+      "plugins_list": [  ],
+      "removed_old_component_pepper_flash_settings": true
+   },
+   "profile": {
+      "avatar_index": 0,
+      "content_settings": {
+         "clear_on_exit_migrated": true,
+         "pattern_pairs": {
+
+         },
+         "pref_version": 1
+      },
+      "exit_type": "Normal",
+      "exited_cleanly": true,
+      "local_profile_id": 16458855,
+      "managed_user_id": "",
+      "name": "Erster Nutzer",
+      "per_host_zoom_levels": {
+
+      }
+   },
+   "savefile": {
+      "default_directory": "/home/user/Downloads"
+   },
+   "selectfile": {
+      "last_directory": "/home/user"
+   },
+   "session": {
+      "restore_on_startup": 4,
+      "restore_on_startup_migrated": true,
+      "startup_urls": [ "https://neptuneos.com/" ],
+      "startup_urls_migration_time": "13042581458329300"
+   },
+   "translate_blocked_languages": [ "de", "en" ],
+   "translate_language_blacklist": [ "en" ],
+   "translate_whitelists": {
+
+   }
+}

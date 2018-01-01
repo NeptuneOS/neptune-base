@@ -1,0 +1,11 @@
+[$Version]
+update_info=plasma_popupapplet_fix_groups.upd:PlasmaPopupAppletFixGroups2
+
+[Applet Browser]
+used=,launcher,systemtray,battery,notifier,pager,tasks,digital-clock
+
+[Theme-amarok]
+name=Amarok-Mockup
+
+[Theme]
+name=CaledoniaWaveRemixNeptune

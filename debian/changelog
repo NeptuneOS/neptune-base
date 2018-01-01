@@ -1,0 +1,511 @@
+neptune-base (4.3.0) stretch; urgency=medium
+
+  * Added zram-no-resume.conf to avoid resuming from ZRAM devices
+
+ -- Leszek Lesner <leszek@zevenos.com>  Fri, 18 Aug 2017 11:10:08 +0200
+
+neptune-base (4.2.9) stretch; urgency=medium
+
+  * Updated chromium homepage to load with https
+
+ -- Leszek Lesner <leszek@zevenos.com>  Mon, 14 Aug 2017 12:06:58 +0200
+
+neptune-base (4.2.8) stretch; urgency=medium
+
+  * Ship default face avatar
+
+ -- Leszek Lesner <leszek@zevenos.com>  Fri, 23 Jun 2017 21:05:03 +0200
+
+neptune-base (4.2.7) stretch; urgency=medium
+
+  * Hide display16 (imagemagick)
+
+ -- Leszek Lesner <leszek@zevenos.com>  Thu, 22 Jun 2017 21:19:27 +0200
+
+neptune-base (4.2.6) stretch; urgency=medium
+
+  * Install fonts.conf
+
+ -- Leszek Lesner <leszek@zevenos.com>  Thu, 22 Jun 2017 19:30:22 +0200
+
+neptune-base (4.2.5) stretch; urgency=medium
+
+  * Correctly install gtkrc-2.0 file globally
+
+ -- Leszek Lesner <leszek@zevenos.com>  Wed, 21 Jun 2017 16:59:13 +0200
+
+neptune-base (4.2.4) stretch; urgency=medium
+
+  * Add gtkrc-2.0 and gtk-3.0/settings.ini to /etc/
+
+ -- Leszek Lesner <leszek@zevenos.com>  Wed, 21 Jun 2017 15:05:13 +0200
+
+neptune-base (4.2.3) stretch; urgency=medium
+
+  * Install color-schemes also in plasma5-profile
+
+ -- Leszek Lesner <leszek@zevenos.com>  Wed, 21 Jun 2017 11:11:28 +0200
+
+neptune-base (4.2.2) stretch; urgency=medium
+
+  * Replaced elementary theme with greybird (GTK 3.20 compatibility)
+  * Kept the elementary theme name for compatibility
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 20 Jun 2017 19:46:45 +0200
+
+neptune-base (4.2.1) stretch; urgency=medium
+
+  * Update default menu (hide entries)
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 20 Jun 2017 18:02:20 +0200
+
+neptune-base (4.2.0) stretch; urgency=medium
+
+  * Updated Elementary GTK Theme
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 20 Jun 2017 15:32:54 +0200
+
+neptune-base (4.1.9) unstable; urgency=medium
+
+  * Replaces base-file (just in case of lsb-release or other)
+  * Prepared for Neptune 4.9 "refresh" release
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sun, 18 Jun 2017 15:44:21 +0200
+
+neptune-base (4.1.8) unstable; urgency=medium
+
+  * Prepare for Neptune 4.5.2 release
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sat, 12 Nov 2016 13:34:50 +0100
+
+neptune-base (4.1.7) unstable; urgency=medium
+
+  * Prepare for Neptune 4.5 release
+
+ -- Leszek Lesner <leszek@zevenos.com>  Fri, 22 Jan 2016 13:49:18 +0100
+
+neptune-base (4.1.6) unstable; urgency=medium
+
+  * Fix elementary gtk3 tooltip color set color (fix for ff gtk3 builds)
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sun, 23 Aug 2015 19:14:09 +0200
+
+neptune-base (4.1.5) unstable; urgency=medium
+
+  * Make kdesu and kdesudo work with roothere.desktop
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sun, 12 Jul 2015 12:31:27 +0200
+
+neptune-base (4.1.4) unstable; urgency=medium
+
+  * Fix root_here.desktop missing caption
+
+ -- Leszek Lesner <leszek@zevenos.com>  Fri, 10 Jul 2015 18:42:26 +0200
+
+neptune-base (4.1.3) unstable; urgency=medium
+
+  * Added konversationrc with Freenode (Neptune Support) server
+
+ -- Leszek Lesner <leszek@zevenos.com>  Mon, 06 Jul 2015 11:41:38 +0200
+
+neptune-base (4.1.2) unstable; urgency=medium
+
+  * Add "Dolphin Root" to roothere.desktop as caption
+  * ElementaryNeptune QtCurve theme now uses SliderWidth=9
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sun, 05 Jul 2015 12:33:46 +0200
+
+neptune-base (4.1.1) unstable; urgency=medium
+
+  * Fixed stylerc slider width to 9 px again
+  * Bumped gtk3 slider to 9 px
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 30 Jun 2015 12:58:03 +0200
+
+neptune-base (4.1.0) unstable; urgency=medium
+
+  * Added libreoffice.rc to gtk theme elementary
+    to fix scrollbar size
+  * Bumped default slider width in QtCurve Theme to 9
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 16 Jun 2015 11:34:55 +0200
+
+neptune-base (4.0.9) unstable; urgency=medium
+
+  * Bumped version numbers to Neptune 4.4
+  * Use new default exo2 and droid sans mono fonts
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sat, 30 May 2015 12:21:50 +0200
+
+neptune-base (4.0.8) unstable; urgency=low
+
+  * Set new default volume for knotifyrc
+
+ -- Leszek Lesner <leszek@zevenos.com>  Thu, 02 Apr 2015 10:44:13 +0200
+
+neptune-base (4.0.7) unstable; urgency=low
+
+  * Bump version number to 4.3
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sat, 21 Mar 2015 11:09:27 +0100
+
+neptune-base (4.0.6) unstable; urgency=low
+
+  * Corrected installation of bridge cursor theme
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 21 Oct 2014 15:48:55 +0200
+
+neptune-base (4.0.5) unstable; urgency=low
+
+  * hide double entries in the menu
+  * add description to retext menu entry
+  * bump version number
+
+ -- Leszek Lesner <leszek@zevenos.com>  Thu, 02 Oct 2014 12:31:00 +0200
+
+neptune-base (4.0.4) unstable; urgency=low
+
+  * make roothere servicemenu entry use kdesu instead of kdesudo
+
+ -- Leszek Lesner <leszek@zevenos.com>  Wed, 24 Sep 2014 09:56:14 +0200
+
+neptune-base (4.0.3) unstable; urgency=low
+
+  * Updated hotkeys for knetworkmanager
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sat, 23 Aug 2014 13:59:31 +0200
+
+neptune-base (4.0.2) unstable; urgency=low
+
+  * Added default asound.conf
+
+ -- Leszek Lesner <leszek@zevenos.com>  Fri, 22 Aug 2014 11:11:25 +0200
+
+neptune-base (4.0.1) unstable; urgency=low
+
+  * Added default vimrc
+
+ -- Leszek Lesner <leszek@zevenos.com>  Fri, 08 Aug 2014 17:45:06 +0200
+
+neptune-base (4.0.0) unstable; urgency=low
+
+  * Fix udev/systemd not loading loop by default (causing TC not to mount)
+
+ -- Leszek Lesner <leszek@zevenos.com>  Mon, 04 Aug 2014 15:37:23 +0200
+
+neptune-base (3.9.9) unstable; urgency=low
+
+  * Change links for libreoffice
+
+ -- Leszek Lesner <leszek@zevenos.com>  Fri, 01 Aug 2014 10:50:18 +0200
+
+neptune-base (3.9.8) unstable; urgency=low
+
+  * Bumped version number to 4.1
+
+ -- Leszek Lesner <leszek@zevenos.com>  Fri, 01 Aug 2014 10:28:25 +0200
+
+neptune-base (3.9.7) unstable; urgency=low
+
+  * Updated chromium default profile
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 29 Jul 2014 10:56:18 +0200
+
+neptune-base (3.9.6) unstable; urgency=low
+
+  * Added default mimetypes
+  * Hide gnome-mplayer
+
+ -- Leszek Lesner <leszek@zevenos.com>  Thu, 12 Jun 2014 11:27:30 +0200
+
+neptune-base (3.9.5) unstable; urgency=low
+
+  * Lancelot show description first
+  * Don't load randrmonitor module
+  * Load kscreen module
+
+ -- Leszek Lesner <leszek@zevenos.com>  Thu, 05 Jun 2014 13:44:46 +0200
+
+neptune-base (3.9.4) unstable; urgency=low
+
+  * Added 20-thinkpad.conf
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sun, 11 May 2014 13:15:54 +0200
+
+neptune-base (3.9.3) unstable; urgency=low
+
+  * Added bridge cursor theme
+
+ -- Leszek Lesner <leszek@zevenos.com>  Wed, 07 May 2014 17:23:53 +0200
+
+neptune-base (3.9.2) unstable; urgency=low
+
+  * Copy default kdewallet in etc skel
+
+ -- Leszek Lesner <leszek@zevenos.com>  Fri, 02 May 2014 21:29:49 +0200
+
+neptune-base (3.9.1) unstable; urgency=low
+
+  * Ship default kdewallet wallet
+
+ -- Leszek Lesner <leszek@zevenos.com>  Fri, 02 May 2014 17:56:09 +0200
+
+neptune-base (3.8.9) unstable; urgency=low
+
+  * Make ui fonts 1px bigger 
+  * Make default terminal font 2px bigger
+  * Modify gtk-colors for blue scrollbar
+
+ -- Leszek Lesner <leszek@zevenos.com>  Wed, 30 Apr 2014 00:16:55 +0200
+
+neptune-base (3.8.8) unstable; urgency=low
+
+  * Use libreoffice 4.2 link in lancelot
+  * Disable wallpaper setting in startup js script
+  * Use Caledonia Neptune theme to set default wallpaper
+
+ -- Leszek Lesner <leszek@zevenos.com>  Wed, 23 Apr 2014 11:39:23 +0200
+
+neptune-base (3.8.7) unstable; urgency=low
+
+  * Hide kismon from menu
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 22 Apr 2014 23:52:14 +0200
+
+neptune-base (3.8.6) unstable; urgency=low
+
+  * Set and ship elementary as default gtk theme
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 22 Apr 2014 16:46:24 +0200
+
+neptune-base (3.8.5) unstable; urgency=low
+
+  * Fixed notification sounds
+  * KWin set upper right corner to show all workspaces
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 22 Apr 2014 15:59:02 +0200
+
+neptune-base (3.8.4) unstable; urgency=low
+
+  * Added default chromium profile
+  * Set kwin to center windows by default
+  * No preventionLevel for window activation
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 22 Apr 2014 10:43:10 +0200
+
+neptune-base (3.8.3) unstable; urgency=low
+
+  * Fixed khotkeysrc
+  * Fixed akonadi config
+  * Hide higens tools in menu -> graphics
+  * Disable lancelot statistics
+
+ -- Leszek Lesner <leszek@zevenos.com>  Mon, 21 Apr 2014 20:31:57 +0200
+
+neptune-base (3.8.2) unstable; urgency=low
+
+  * Added ElementaryNeptune default aurorae theme
+
+ -- Leszek Lesner <leszek@zevenos.com>  Mon, 21 Apr 2014 13:02:11 +0200
+
+neptune-base (3.8.1) unstable; urgency=low
+
+  * Bumped version number of Neptune to 4.0
+  * Added new default theme + configs
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sun, 06 Apr 2014 14:27:45 +0200
+
+neptune-base (3.0.0) unstable; urgency=low
+
+  * Don't use cvlc as it does not close itself for knotify
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sun, 19 Jan 2014 19:22:30 +0100
+
+neptune-base (2.9.9) unstable; urgency=low
+
+  * Updated AirNeptune Theme to display progress in notification bubble
+  * Use cvlc as external player for knotify
+  * Bump version number of Neptune to 3.3
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sun, 19 Jan 2014 17:49:36 +0100
+
+neptune-base (2.9.8) unstable; urgency=low
+
+  * Added default gtk3, gtk2 and qt config
+  * Disabled lancelot mouse action clicks on hover
+
+ -- Leszek Lesner <leszek@zevenos.com>  Wed, 24 Jul 2013 13:54:52 +0200
+
+neptune-base (2.9.7) unstable; urgency=low
+
+  * Activated kffmpegthumbnailer
+  * Added default kmenu structure
+  * Limited previews for remote files to 200 MB
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 23 Jul 2013 12:46:08 +0200
+
+neptune-base (2.9.6) unstable; urgency=low
+
+  * Fixed adding meta+k to launch knetworkmounter
+  * Bumped lsb-release to version 3.2
+
+ -- Leszek Lesner <leszek@zevenos.com>  Thu, 18 Jul 2013 13:53:40 +0200
+
+neptune-base (2.9.5) unstable; urgency=low
+
+  * Bumped lsb-release version to 3.1
+  * Added meta+k to launch knetworkmounter
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sat, 18 May 2013 16:15:01 +0200
+
+neptune-base (2.9.4) unstable; urgency=low
+
+  * Fixed desktop background, updated grub
+
+ -- Leszek Lesner <leszek@zevenos.com>  Thu, 14 Mar 2013 10:45:21 +0100
+
+neptune-base (2.9.3) unstable; urgency=low
+
+  * Updated background, kdm, ksplash and grub theme
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 12 Mar 2013 16:20:47 +0100
+
+neptune-base (2.9.2) unstable; urgency=low
+
+  * Added new sound themes as default ones
+  * Changed cursor theme to oxy-bluecurve
+
+ -- Leszek Lesner <leszek@zevenos.com>  Mon, 11 Mar 2013 20:52:57 +0100
+
+neptune-base (2.9.0) unstable; urgency=low
+
+  * Fixed colors in gtk menus
+  * Bumped version number to 2.9
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sun, 17 Feb 2013 13:53:39 +0100
+
+neptune-base (2.5.10) unstable; urgency=low
+
+  * Fixed tooltip text color
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 01 Jan 2013 16:59:54 +0100
+
+neptune-base (2.5.9) unstable; urgency=low
+
+  * Fixed new default font configuration 
+
+ -- Leszek Lesner <leszek@zevenos.com>  Fri, 02 Nov 2012 18:21:50 +0100
+
+neptune-base (2.5.8) unstable; urgency=low
+
+  * Added new default font configuration
+
+ -- Leszek Lesner <leszek@zevenos.com>  Mon, 15 Oct 2012 18:30:29 +0200
+
+neptune-base (2.5.7) unstable; urgency=low
+
+  * Fixed plasma init script
+  * Added Plasma Themes to /usr/share/kde4/apps/desktoptheme
+  * Bumped lsb-release to Neptune version 3.0
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sun, 30 Sep 2012 22:20:36 +0200
+
+neptune-base (2.5.6) unstable; urgency=low
+
+  * Revert kdeglobals fix from 2.5.5
+
+ -- Leszek Lesner <leszek@zevenos.com>  Mon, 03 Sep 2012 13:19:43 +0200
+
+neptune-base (2.5.5) unstable; urgency=low
+
+  * Fixed kdeglobals to link to right default neptune config
+  * Fixed Panel Templates to link to chromium.desktop instead of
+    chromium-browser.desktop
+
+ -- Leszek Lesner <leszek@zevenos.com>  Mon, 03 Sep 2012 12:32:17 +0200
+
+neptune-base (2.5.4) unstable; urgency=low
+
+  * Neptune panel now uses lancelot by default
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sat, 01 Sep 2012 17:08:50 +0200
+
+neptune-base (2.5.3) unstable; urgency=low
+
+  * Fixed kdeglobals colors
+
+ -- Leszek Lesner <leszek@zevenos.com>  Fri, 13 Jul 2012 21:45:43 +0200
+
+neptune-base (2.5.2) unstable; urgency=low
+
+  * Fixed virtualdesktop count
+
+ -- Leszek Lesner <leszek@zevenos.com>  Fri, 13 Jul 2012 20:45:43 +0200
+
+neptune-base (2.5.1) unstable; urgency=low
+
+  * Updated for 64Bit release
+
+ -- Leszek Lesner <leszek@zevenos.com>  Thu, 12 Jul 2012 11:33:17 +0200
+
+neptune-base (2.5.0) unstable; urgency=low
+
+  * Updated Artwork for Neptune 2.5 release
+  * Updated lsb-release for Neptune 2.5 release
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sun, 08 Apr 2012 18:09:23 +0200
+
+neptune-base (2.0.7) unstable; urgency=low
+
+  * Added KDE Panel Layouts for:
+   - Neptune Default
+   - MacOS
+   - Unity
+   - KDE 3
+   - Unlook7
+
+ -- Leszek Lesner <leszek@zevenos.com>  Fri, 30 Mar 2012 11:54:14 +0200
+
+neptune-base (2.0.6) unstable; urgency=low
+
+  * Fixed grub script
+  * Fixed default font and set it to ubuntu again
+  * Added lsb-release
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sun, 27 Nov 2011 20:56:47 +0100
+
+neptune-base (2.0.5) unstable; urgency=low
+
+  * Added yakuake config
+
+ -- Leszek Lesner <leszek@zevenos.com>  Mon, 17 Oct 2011 21:43:24 +0200
+
+neptune-base (2.0.4) unstable; urgency=low
+
+  * Attempt to disable akonadi autostart as it eats up space on live media
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sun, 09 Oct 2011 14:44:31 +0200
+
+neptune-base (2.0.3) unstable; urgency=low
+
+  * Added alternative neptune-faenza-icons-minimal to debian/control
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sat, 08 Oct 2011 11:59:59 +0200
+
+neptune-base (2.0.2) unstable; urgency=low
+
+  * Added default dolphinrc config with row=3 settings for icon view
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 20 Sep 2011 11:06:49 +0200
+
+neptune-base (2.0.1) unstable; urgency=low
+
+  * Updated ZevenOS-Neptune Color Scheme
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sun, 18 Sep 2011 18:29:33 +0200
+
+neptune-base (2.0.0) unstable; urgency=low
+
+  * Initial Version
+
+ -- Leszek Lesner <leszek@zevenos.com>  Wed, 13 Jul 2011 16:23:42 +0200

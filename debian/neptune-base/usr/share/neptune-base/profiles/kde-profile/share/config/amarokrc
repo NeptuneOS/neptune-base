@@ -1,0 +1,95 @@
+[Collection Browser]
+TreeCategory=2,1
+View Mode=NormalCollections
+
+[Cover Fetcher]
+Height 800=457
+Interactive Image Source=Google
+Width 1280=1079
+
+[Cover Manager]
+Window Size=853,533
+
+[Current Track Applet]
+Font=DejaVu Sans,10,-1,5,50,0,0,0,0,0
+ShowEditTrackAction=true
+ShowFindInSourceAction=false
+
+[DownloadDialog Settings]
+Height 800=489
+Width 1280=845
+
+[FilenameLayoutDialog]
+Custom Scheme=%artist-%title
+
+[General]
+Browser Path=root list
+Debug Enabled=false
+First Run=true
+HiddenOnExit=true
+LayoutFileDeleted=true
+MainWindow Position=53,29
+MainWindow Size=1146,678
+
+[General Options]
+AutoGetCoverArt=true
+Last Dynamic Mode=Zufallsmodus
+Left Time Display Remaining=true
+Lock Layout=false
+PlayFirstRunJingle=false
+Relative Playlist=false
+
+[MainWindow]
+Height 800=801
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAUAAAACnPwBAAAAAfwAAAAAAAAFAAAAAeEA/////AEAAAAC/AAAAAAAAANbAAAAygD////8AQAAAAL7AAAAJABNAGUAZABpAGEAIABTAG8AdQByAGMAZQBzACAAZABvAGMAawEAAAAAAAABWwAAAHMA////+wAAABgAQwBvAG4AdABlAHgAdAAgAGQAbwBjAGsBAAABYQAAAfoAAABRAP////sAAAAaAFAAbABhAHkAbABpAHMAdAAgAGQAbwBjAGsBAAADYQAAAZ8AAAERAP///wAAAAAAAAKcAAAABAAAAAQAAAAIAAAACPwAAAAKAAAAAgAAAAAAAAACAAAAAAAAAAIAAAABAAAAGABTAGwAaQBtACAAVABvAG8AbABiAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAABAAAAFgBNAGEAaQBuAFQAbwBvAGwAYgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAMAAAAAAAAAAwAAAAAAAAADAAAAAAAAAAMAAAAA
+ToolBarsMovable=Disabled
+Width 1280=1281
+
+[Notification Messages]
+LikeBack_starting_information=false
+hideOnCloseInfo=false
+systemtrayquitAmarok=false
+
+[OSD]
+Osd Alignment=Right
+Osd Enabled=true
+Osd Y Offset=617
+
+[Phonon::AudioOutput]
+Amarok_Volume=0.55
+
+[Playback]
+EqualizerGains=
+Master Volume=55
+
+[Playlist Layout]
+CurrentLayout=Standard
+
+[Playlist Search]
+MatchAlbum=true
+MatchArtist=true
+MatchRating=true
+MatchTrack=true
+MatchYear=false
+ShowOnlyMatches=false
+
+[Playlist Sorting]
+SortPath=
+
+[Podcast View]
+Merged View=true
+
+[Podcasts]
+AutoUpdate Interval=30
+Maximum Simultaneous Downloads=4
+Maximum Simultaneous Updates=4
+
+[Recent Dirs]
+amarok-playlist-export[$e]=file://$HOME/,$HOME/Documents
+
+[Videoclip Applet]
+YoutubeHQ=true
+
+[Wikipedia Applet]
+PreferredLang=de,en
+UseMobile=false

@@ -1,0 +1,18 @@
+[Desktop Entry]
+Actions=attachToEmail
+Encoding=UTF-8
+ServiceTypes=KonqPopupMenu/Plugin,all/allfiles
+ExcludeServiceTypes=application/x-iso,kdedevice/*,inode/directory
+Type=Service
+
+[Desktop Action attachToEmail]
+Name=Attach to Thunderbird Mail
+Name[it]=Invia E-mail con Thunderbird
+Name[es]=Enviar adjunto con Thunderbird
+Name[de]=Verschicken als Anhang...
+Icon=/usr/share/pixmaps/icedove.xpm
+
+#Exec=a.sh -compose "attachment=file:/$(echo %F | sed 's/\\ \\//,file:\\/\\//g')"
+# bactick operator also works
+#Exec=icedove -compose "attachment='file:/`echo %F | sed 's/\\ \\//,file:\\/\\//g'`'"
+Exec=icedove -compose "attachment='file:///$(echo %F | sed 's/\\ \\//,file:\\/\\//g')'"

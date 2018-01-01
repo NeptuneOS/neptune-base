@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Neptune theme
+Description=Neptune plymounth theme
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/neptune
+ScriptFile=/usr/share/plymouth/themes/neptune/neptune.script

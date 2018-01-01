@@ -1,0 +1,38 @@
+#############################
+
+This caledonia-neptune theme was based on the work of Aron Lewis
+
+Thanks to the Author !
+
+-- Leszek Lesner @ Nov 06 , 2013
+
+
+#############################
+
+The theme was based on Kubuntu artwork and Caledonia KSplash theme (GPLv2)
+
+Thanks to the Author !
+
+-- Aaron Lewis @ Jan 16 , 2012 
+
+#############################
+
+Extract this folder to /lib/plymouth/themes
+
+And install theme:
+update-alternatives --install /lib/plymouth/themes/default.plymouth default.plymouth /lib/plymouth/themes/caledonia/caledonia.plymouth 100
+
+Now select the theme:
+update-alternatives --config default.plymouth
+
+Pick the right one and type in the number to finish
+
+To preview:
+plymouthd
+plymouth --show-splash
+
+(You'd have to switch to VT-7 to take a look (kdm may crash) , or use `fbgrab -c 7 out.png` and view the captured image (apt-get to install it) )
+
+To enable this on login:
+
+update-initramfs -u

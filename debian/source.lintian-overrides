@@ -1,0 +1,2 @@
+# we ignore ${Misc:Depends} because it would bring gconf
+neptune-base source: debhelper-but-no-misc-depends neptune-base

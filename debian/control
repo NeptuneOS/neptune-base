@@ -1,0 +1,32 @@
+Source: neptune-base
+Section: x11
+Priority: optional
+Maintainer: Leszek Lesner <leszek@zevenos.com>
+Build-Depends: cdbs, debhelper (>= 6)
+# libusplash-dev, imagemagick, librsvg2-bin
+Standards-Version: 3.9.1
+Homepage: http://www.zevenos.com/neptune
+
+Package: neptune-base
+Architecture: all
+Depends: librsvg2-common, neptune-faenza-icons-minimal | neptune-faenza-icons, ttf-droid-sans-mono, ttf-exo2
+Suggests: gnome | kde-standard | xfce4 | wmaker | vlc-nox
+Provides: kde-etcskel, zevenos-kdm
+Replaces: kde-etcskel, zevenos-kdm, base-files
+Conflicts: desktop-base
+Description: common files for the Debian Desktop
+ This package contains various miscellaneous files which are used by
+ Neptune Desktop installations.  Currently, it provides some
+ Neptune-related artwork and themes,
+ and other common files between the available desktop environments
+ such as GNOME and KDE.
+
+#Package: usplash-theme-debian-desktop
+#Section: misc
+#Architecture: amd64 i386 powerpc sparc
+#Depends: ${shlibs:Depends}, usplash
+#Provides: usplash-theme
+#Description: Debian Desktop usplash theme
+# This package contains an usplash theme based on Debian Desktop project.
+# .
+# See http://wiki.debian.org/DebianDesktopArtwork for more details.

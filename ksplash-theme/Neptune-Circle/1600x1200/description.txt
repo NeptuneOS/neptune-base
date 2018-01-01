@@ -1,0 +1,24 @@
+SCALE ON
+BACKGROUND_IMAGE 0 0 background.png
+SCALE OFF
+
+IMAGE_REL CC 0 0 CC rectangle.png
+
+ANIM_REL 1 CC 0 0 CC 30 Anim1.png 85 1
+WAIT_STATE kded
+
+ANIM_REL 2 CC 0 0 CC 30 Anim2.png 85 1
+WAIT_STATE kcminit
+
+ANIM_REL 3 CC 0 0 CC 29 Anim3.png 85 1
+WAIT_STATE ksmserver
+
+ANIM_REL 4 CC 0 0  CC 30 Anim4.png 85 1
+WAIT_STATE wm
+
+ANIM_REL 5 CC 0 0 CC 30 Anim5.png 85 1
+WAIT_STATE desktop
+
+WAIT_STATE ready
+
+

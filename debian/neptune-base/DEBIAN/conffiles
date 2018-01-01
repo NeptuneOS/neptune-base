@@ -1,0 +1,165 @@
+/etc/X11/cursors/bridge.theme
+/etc/asound.conf
+/etc/default/kdm.d/10_desktop-base
+/etc/dpkg/origins/neptune
+/etc/gtk-2.0/gtkrc
+/etc/gtk-3.0/settings.ini
+/etc/initramfs-tools/conf.d/zram-no-resume.conf
+/etc/issue
+/etc/issue.net
+/etc/lsb-release
+/etc/modprobe.d/pcspkr-blacklist.conf
+/etc/modules-load.d/loop.conf
+/etc/os-release
+/etc/skel/.config/Trolltech.conf
+/etc/skel/.config/akonadi/akonadiserverrc
+/etc/skel/.config/chromium/Channels
+/etc/skel/.config/chromium/Default/Application Cache/Cache/data_0
+/etc/skel/.config/chromium/Default/Application Cache/Cache/data_1
+/etc/skel/.config/chromium/Default/Application Cache/Cache/data_2
+/etc/skel/.config/chromium/Default/Application Cache/Cache/data_3
+/etc/skel/.config/chromium/Default/Application Cache/Cache/index
+/etc/skel/.config/chromium/Default/Application Cache/Index
+/etc/skel/.config/chromium/Default/Application Cache/Index-journal
+/etc/skel/.config/chromium/Default/Archived History
+/etc/skel/.config/chromium/Default/Archived History-journal
+/etc/skel/.config/chromium/Default/Bookmarks
+/etc/skel/.config/chromium/Default/Cookies
+/etc/skel/.config/chromium/Default/Cookies-journal
+/etc/skel/.config/chromium/Default/Current Session
+/etc/skel/.config/chromium/Default/Current Tabs
+/etc/skel/.config/chromium/Default/Extension Cookies
+/etc/skel/.config/chromium/Default/Extension State/000005.ldb
+/etc/skel/.config/chromium/Default/Extension State/000008.ldb
+/etc/skel/.config/chromium/Default/Extension State/000011.ldb
+/etc/skel/.config/chromium/Default/Extension State/000012.log
+/etc/skel/.config/chromium/Default/Extension State/CURRENT
+/etc/skel/.config/chromium/Default/Extension State/LOCK
+/etc/skel/.config/chromium/Default/Extension State/LOG
+/etc/skel/.config/chromium/Default/Extension State/LOG.old
+/etc/skel/.config/chromium/Default/Extension State/MANIFEST-000010
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/bg/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/ca/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/cs/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/da/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/de/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/el/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/en/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/en_GB/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/es/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/es_419/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/et/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/fi/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/fil/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/fr/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/hi/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/hr/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/hu/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/id/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/it/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/ja/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/ko/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/lt/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/lv/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/nb/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/nl/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/pl/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/pt_BR/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/pt_PT/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/ro/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/ru/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/sk/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/sl/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/sr/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/sv/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/th/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/tr/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/uk/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/vi/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/zh_CN/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/_locales/zh_TW/messages.json
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/craw_background.js
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/craw_window.js
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/css/craw_window.css
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/html/craw_window.html
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/images/flapper.gif
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/images/icon_128.png
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/images/icon_16.png
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/images/topbar_floating_button.png
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/images/topbar_floating_button_close.png
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/images/topbar_floating_button_hover.png
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/images/topbar_floating_button_maximize.png
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/images/topbar_floating_button_pressed.png
+/etc/skel/.config/chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/manifest.json
+/etc/skel/.config/chromium/Default/Extensions/pdongokkdiclimbompodchjpdglpfemg/1_0/Cached Theme.pak
+/etc/skel/.config/chromium/Default/Extensions/pdongokkdiclimbompodchjpdglpfemg/1_0/images/theme_frame.png
+/etc/skel/.config/chromium/Default/Extensions/pdongokkdiclimbompodchjpdglpfemg/1_0/images/theme_toolbar.png
+/etc/skel/.config/chromium/Default/Extensions/pdongokkdiclimbompodchjpdglpfemg/1_0/manifest.json
+/etc/skel/.config/chromium/Default/Favicons
+/etc/skel/.config/chromium/Default/Favicons-journal
+/etc/skel/.config/chromium/Default/GPUCache/data_0
+/etc/skel/.config/chromium/Default/GPUCache/data_1
+/etc/skel/.config/chromium/Default/GPUCache/data_2
+/etc/skel/.config/chromium/Default/GPUCache/data_3
+/etc/skel/.config/chromium/Default/GPUCache/index
+/etc/skel/.config/chromium/Default/History
+/etc/skel/.config/chromium/Default/History Provider Cache
+/etc/skel/.config/chromium/Default/History-journal
+/etc/skel/.config/chromium/Default/Local Extension Settings/pafkbggdmjlpgkdkcbjmhmfcdpncadgh/000005.ldb
+/etc/skel/.config/chromium/Default/Local Extension Settings/pafkbggdmjlpgkdkcbjmhmfcdpncadgh/000009.log
+/etc/skel/.config/chromium/Default/Local Extension Settings/pafkbggdmjlpgkdkcbjmhmfcdpncadgh/CURRENT
+/etc/skel/.config/chromium/Default/Local Extension Settings/pafkbggdmjlpgkdkcbjmhmfcdpncadgh/LOCK
+/etc/skel/.config/chromium/Default/Local Extension Settings/pafkbggdmjlpgkdkcbjmhmfcdpncadgh/LOG
+/etc/skel/.config/chromium/Default/Local Extension Settings/pafkbggdmjlpgkdkcbjmhmfcdpncadgh/LOG.old
+/etc/skel/.config/chromium/Default/Local Extension Settings/pafkbggdmjlpgkdkcbjmhmfcdpncadgh/MANIFEST-000007
+/etc/skel/.config/chromium/Default/Local Storage/chrome-extension_eemcgdkfndhakfknompkggombfjjjeno_0.localstorage
+/etc/skel/.config/chromium/Default/Local Storage/chrome-extension_pafkbggdmjlpgkdkcbjmhmfcdpncadgh_0.localstorage
+/etc/skel/.config/chromium/Default/Local Storage/chrome-extension_pafkbggdmjlpgkdkcbjmhmfcdpncadgh_0.localstorage-journal
+/etc/skel/.config/chromium/Default/Login Data
+/etc/skel/.config/chromium/Default/Login Data-journal
+/etc/skel/.config/chromium/Default/Network Action Predictor
+/etc/skel/.config/chromium/Default/Network Action Predictor-journal
+/etc/skel/.config/chromium/Default/Origin Bound Certs
+/etc/skel/.config/chromium/Default/Origin Bound Certs-journal
+/etc/skel/.config/chromium/Default/Preferences
+/etc/skel/.config/chromium/Default/QuotaManager
+/etc/skel/.config/chromium/Default/QuotaManager-journal
+/etc/skel/.config/chromium/Default/README
+/etc/skel/.config/chromium/Default/Session Storage/000005.ldb
+/etc/skel/.config/chromium/Default/Session Storage/000008.ldb
+/etc/skel/.config/chromium/Default/Session Storage/000011.ldb
+/etc/skel/.config/chromium/Default/Session Storage/000012.log
+/etc/skel/.config/chromium/Default/Session Storage/CURRENT
+/etc/skel/.config/chromium/Default/Session Storage/LOCK
+/etc/skel/.config/chromium/Default/Session Storage/LOG
+/etc/skel/.config/chromium/Default/Session Storage/LOG.old
+/etc/skel/.config/chromium/Default/Session Storage/MANIFEST-000010
+/etc/skel/.config/chromium/Default/Shortcuts
+/etc/skel/.config/chromium/Default/Shortcuts-journal
+/etc/skel/.config/chromium/Default/Thumbnails
+/etc/skel/.config/chromium/Default/Top Sites
+/etc/skel/.config/chromium/Default/Top Sites-journal
+/etc/skel/.config/chromium/Default/TransportSecurity
+/etc/skel/.config/chromium/Default/Visited Links
+/etc/skel/.config/chromium/Default/Web Data
+/etc/skel/.config/chromium/Default/databases/Databases.db
+/etc/skel/.config/chromium/Dictionaries/de-DE-1-2.bdic
+/etc/skel/.config/chromium/Dictionaries/de-DE-3-0.bdic
+/etc/skel/.config/chromium/Dictionaries/en-US-1-2.bdic
+/etc/skel/.config/chromium/First Run
+/etc/skel/.config/chromium/Local State
+/etc/skel/.config/chromium/Safe Browsing Bloom
+/etc/skel/.config/chromium/Safe Browsing Cookies
+/etc/skel/.config/chromium/Safe Browsing Cookies-journal
+/etc/skel/.config/chromium/chrome_shutdown_ms.txt
+/etc/skel/.config/fontconfig/fonts.conf
+/etc/skel/.config/gtk-3.0/settings.ini
+/etc/skel/.config/menus/applications-kmenuedit.menu
+/etc/skel/.config/qtcurve/gtk-icons
+/etc/skel/.config/qtcurve/stylerc
+/etc/skel/.config/qtcurve/windowBorderSizes
+/etc/skel/.face
+/etc/skel/.kde/share/apps/kwallet/kdewallet.kwl
+/etc/skel/.local/share/applications/mimeapps.list
+/etc/skel/.mailcap
+/etc/skel/.vimrc

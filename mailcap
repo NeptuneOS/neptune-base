@@ -1,0 +1,283 @@
+text/plain; kwrite '%s'; needsterminal
+video/mpeg; vlc '%s'; description="MPEG Video"; test=test -n "$DISPLAY"
+video/x-mpeg; vlc '%s'; description="MPEG Video"; test=test -n "$DISPLAY"
+video/mpeg-system; vlc '%s'; description="MPEG Video"; test=test -n "$DISPLAY"
+video/x-mpeg-system; vlc '%s'; description="MPEG Video"; test=test -n "$DISPLAY"
+audio/x-wav; vlc '%s'; description="WAV Audio"; nametemplate=%s.wav; test=test -n "$DISPLAY"
+video/mpeg4; vlc '%s'; description="MPEG-4 Video"; test=test -n "$DISPLAY"
+audio/mpeg; vlc '%s'; description="MPEG Audio"; nametemplate=%s.mpg; test=test -n "$DISPLAY"
+audio/mpegurl; vlc '%s'; description="MPEG Audio URL"; nametemplate=%s.m3u; test=test -n "$DISPLAY"
+audio/x-mp3; vlc '%s'; nametemplate=%s.mp3; description="MPEG Audio"; test=test -n "$DISPLAY"
+audio/mpeg4; vlc '%s'; description="MPEG-4 Audio"; test=test -n "$DISPLAY"
+application/mpeg4-iod; vlc '%s'; description="MPEG-4 Video"; test=test -n "$DISPLAY"
+application/mpeg4-muxcodetable; vlc '%s'; description="MPEG-4 Video"; test=test -n "$DISPLAY"
+application/pdf;            okular '%s';        nametemplate=%s.pdf;      test=test "$DISPLAY" != ""
+application/x-pdf;          okular '%s';        nametemplate=%s.pdf;      test=test "$DISPLAY" != ""
+application/x-gzpdf;        okular '%s';        nametemplate=%s.pdf.gz;   test=test "$DISPLAY" != ""
+application/x-bzpdf;        okular '%s';        nametemplate=%s.pdf.bz2;  test=test "$DISPLAY" != ""
+text/html; /usr/bin/sensible-browser '%s'; description=HTML Text; nametemplate=%s.html
+audio/x-musepack; vlc '%s'; description="Musepack Audio"
+application/x-musepack; vlc '%s'; description="Musepack Audio"
+audio/mpc; vlc '%s'; description="Musepack Audio"
+audio/x-mpc; vlc '%s'; description="Musepack Audio"
+audio/musepack; vlc '%s'; description="Musepack Audio"
+application/musepack; vlc '%s'; description="Musepack Audio"
+application/x-ape; vlc '%s'; description="Monkey's Audio"
+audio/ape; vlc '%s'; description="Monkey's Audio"
+audio/x-ape; vlc '%s'; description="Monkey's Audio"
+audio/mpeg2; vlc '%s'; description="MPEG-2 Part 3 Format"
+audio/x-mpeg2; vlc '%s'; description="MPEG-2 Part 3 Format"
+audio/x-mp3; vlc '%s'; description="MPEG-1 Audio Layer 3"
+audio/mp3; vlc '%s'; description="MPEG-1 Audio Layer 3"
+application/x-id3; vlc '%s'; description="MP3 Metadata"
+audio/mpeg; vlc '%s'; description="MPEG Audio Format"
+audio/x-mpeg; vlc '%s'; description="MPEG Audio Format"
+audio/x-mpeg3; vlc '%s'; description="MPEG-3 Audio Format"
+audio/x-mpeg-3; vlc '%s'; description="MPEG-3 Audio Format"
+audio/mpeg3; vlc '%s'; description="MPEG-3 Audio Format"
+audio/mp4; vlc '%s'; description="MPEG-4 Part 3 Format"
+audio/x-m4a; vlc '%s'; description="MPEG-4 Part 3 Format"
+audio/mp; vlc '%s'; description="MP Audio Format"
+audio/x-mp; vlc '%s'; description="MP Audio Format"
+application/ogg; vlc '%s'; description="OggVorbis Audio"
+application/x-ogg; vlc '%s'; description="OggVorbis Audio"
+application/x-vorbis+ogg; vlc '%s'; description="OggVorbis Audio"
+audio/x-vorbis+ogg; vlc '%s'; description="OggVorbis Audio"
+audio/vorbis; vlc '%s'; description="OggVorbis Audio"
+audio/x-vorbis; vlc '%s'; description="OggVorbis Audio"
+audio/ogg; vlc '%s'; description="OggVorbis Audio"
+audio/x-ogg; vlc '%s'; description="OggVorbis Audio"
+audio/x-flac; vlc '%s'; description="Free Lossless Audio Codec"
+application/x-flac; vlc '%s'; description="Free Lossless Audio Codec"
+audio/flac; vlc '%s'; description="Free Lossless Audio Codec"
+audio/x-s3m; vlc '%s'; description="Advanced Module Format"
+audio/x-mod; vlc '%s'; description="Module Format"
+audio/x-xm; vlc '%s'; description="Extended Module Format"
+audio/x-it; vlc '%s'; description="IT Audio Format"
+audio/x-pn-realaudio; vlc '%s'; description="RealAudio Format"
+audio/x-realaudio; vlc '%s'; description="RealAudio Format"
+audio/x-pn-realaudio-plugin; vlc '%s'; description="RealAudio Format"
+audio/x-ms-wmv; vlc '%s'; description="Audio Format"
+audio/x-ms-wax; vlc '%s'; description="Audio Format"
+audio/x-ms-wma; vlc '%s'; description="Audio Format"
+audio/wav; vlc '%s'; description="Waveform Microsoft Wave/RIFF"
+audio/x-wav; vlc '%s'; description="Waveform Microsoft Wave/RIFF"
+audio/x-mpegurl; vlc '%s'; description="Icecast Playlists"
+audio/basic; vlc '%s'; description="Basic Audio Format"
+audio/x-basic; vlc '%s'; description="Basic Audio Format"
+audio/midi; vlc '%s'; description="MIDI Format"
+audio/x-pls; vlc '%s'; description="MP3 ShoutCast/IceCast Playlist"
+audio/x-scpls; vlc '%s'; description="Shoutcast Playlists"
+video/quicktime; vlc '%s'; description="Apple Quicktime Video"; test=test -n "$DISPLAY"
+video/x-quicktime; vlc '%s'; description="Apple Quicktime Video"; test=test -n "$DISPLAY"
+application/x-quicktimeplayer; vlc '%s'; description="Apple Quicktime Video"; test=test -n "$DISPLAY"
+application/smil; vlc '%s'; description="SMIL Format"
+application/vnd.rn-realmedia; vlc '%s'; description="RealAudio Video"; test=test -n "$DISPLAY"
+application/vnd.rn-realaudio; vlc '%s'; description="RealAudio Video"; test=test -n "$DISPLAY"
+video/vnd.rn-realvideo; vlc '%s'; description="RealAudio Video"; test=test -n "$DISPLAY"
+application/asx; vlc '%s'; description="Advanced Systems Format"; test=test -n "$DISPLAY"
+video/x-msvideo; vlc '%s'; description="Audio Video Interleave - Microsoft"; test=test -n "$DISPLAY"
+video/msvideo; vlc '%s'; description="Audio Video Interleave - Microsoft"; test=test -n "$DISPLAY"
+application/x-mplayer2; vlc '%s'; description="Advanced Systems Format"; test=test -n "$DISPLAY"
+application/x-ms-wmv; vlc '%s'; description="Windows Media Video Format"; test=test -n "$DISPLAY"
+video/x-ms-afs; vlc '%s'; description="Audio Video Interleave - Microsoft"; test=test -n "$DISPLAY"
+video/x-ms-asf; vlc '%s'; description="MS ASF video"; test=test -n "$DISPLAY"
+video/x-ms-asf-plugin; vlc '%s'; description="MS ASF video"; test=test -n "$DISPLAY"
+video/x-ms-wm; vlc '%s'; description="Windows Media Format"; test=test -n "$DISPLAY"
+video/x-ms-wmv;  vlc '%s';description="Audio Video Interleave - Microsoft"; test=test -n "$DISPLAY"
+video/x-ms-wma; vlc '%s'; description="Audio Video Interleave - Microsoft"; test=test -n "$DISPLAY"
+video/x-ms-wmx; vlc '%s'; description="Audio Video Interleave - Microsoft"; test=test -n "$DISPLAY"
+video/x-ms-wmp; vlc '%s'; description="Audio Video Interleave - Microsoft"; test=test -n "$DISPLAY"
+video/x-ms-wvx; vlc '%s'; description="Audio Video Interleave - Microsoft"; test=test -n "$DISPLAY"
+application/x-drm-v2; vlc '%s'; description="DRM Version 2 Format"; test=test -n "$DISPLAY"
+video/mpeg; vlc '%s'; description="MPEG Video Format"; test=test -n "$DISPLAY"
+video/x-mpeg; vlc '%s'; description="MPEG Video Format"; test=test -n "$DISPLAY"
+video/x-mpeg2; vlc '%s'; description="MPEG-2 Video"; test=test -n "$DISPLAY"
+video/mp4; vlc '%s'; description="MP4 Format"; test=test -n "$DISPLAY"
+video/3gpp; vlc '%s'; description="3GP Multimedia Format"; test=test -n "$DISPLAY"
+video/fli; vlc '%s'; description="FLI Format"; test=test -n "$DISPLAY"
+video/x-fli; vlc '%s'; description="FLI Format"; test=test -n "$DISPLAY"
+video/x-flv; vlc '%s'; description="Flash Video Format"; test=test -n "$DISPLAY"
+video/vnd.vivo; vlc '%s'; description="VND ViVo Format"; test=test -n "$DISPLAY"
+application/x-nsv-vp3-mp3; vlc '%s'; description="NSP-VP3-MP3"; test=test -n "$DISPLAY"
+video/x-matroska; vlc '%s'; description="Matroska Format"; test=test -n "$DISPLAY"
+video/matroska; vlc '%s'; description="Matroska Format"; test=test -n "$DISPLAY"
+video/x-mng; vlc '%s'; description="Multiple-image Network Graphics Format"; test=test -n "$DISPLAY"
+application/x-troff-man; /usr/bin/nroff -mandoc -Tutf8; copiousoutput; print=/usr/bin/nroff -mandoc -Tutf8 | print text/plain:-
+application/x-ogg; vlc '%s'; description="OggVorbis Audio"
+application/ogg; vlc '%s'; description="OggVorbis Audio"
+audio/mpeg; vlc '%s'; description="MPEG Audio Format"
+audio/x-mpegurl; vlc '%s'; description="Icecast Playlists"
+audio/x-ms-wax; vlc '%s'; description="Audio Format"
+audio/x-ms-wma; vlc '%s'; description="Audio Format"
+audio/x-pls; vlc '%s'; description="MP3 ShoutCast/IceCast Playlist"
+audio/x-scpls; vlc '%s'; description="Shoutcast Playlists"
+audio/x-wav; vlc '%s'; description="Waveform Microsoft Wave/RIFF"
+video/mpeg; vlc '%s'; description="MPEG Video Format"; test=test -n "$DISPLAY"
+video/quicktime; vlc '%s'; description="Apple Quicktime Video"; test=test -n "$DISPLAY"
+video/x-mpeg2; vlc '%s'; description="MPEG Video"; test=test -n "$DISPLAY"
+video/x-mpeg; vlc '%s'; description="MPEG 2 Video"; test=test -n "$DISPLAY"
+video/mpeg; vlc '%s'; description="MPEG 2 Video"; test=test -n "$DISPLAY"
+video/x-ms-afs; vlc '%s'; description="Audio Video Interleave - Microsoft"; test=test -n "$DISPLAY"
+video/x-ms-asf; vlc '%s'; description="MS ASF video"; test=test -n "$DISPLAY"
+video/x-msvideo; vlc '%s'; description="Audio Video Interleave - Microsoft"; test=test -n "$DISPLAY"
+video/x-ms-wma; vlc '%s'; description="Audio Video Interleave - Microsoft"; test=test -n "$DISPLAY"
+video/x-ms-wmv; vlc '%s'; description="Audio Video Interleave - Microsoft"; test=test -n "$DISPLAY"
+video/x-ms-wmx; vlc '%s'; description="Audio Video Interleave - Microsoft"; test=test -n "$DISPLAY"
+video/x-ms-wvx; vlc '%s'; description="Audio Video Interleave - Microsoft"; test=test -n "$DISPLAY"
+application/postscript;     okular '%s';        nametemplate=%s.ps;       test=test "$DISPLAY" != ""
+application/z-gzpostscript; okular '%s';        nametemplate=%s.ps.gz;    test=test "$DISPLAY" != ""
+application/x-bzpostscript; okular '%s';        nametemplate=%s.ps.bz2;   test=test "$DISPLAY" != ""
+image/x-eps;                okular '%s';        nametemplate=%s.eps;      test=test "$DISPLAY" != ""
+image/x-bzeps;              okular '%s';        nametemplate=%s.eps.bz2;  test=test "$DISPLAY" != ""
+image/x-gzeps;              okular '%s';        nametemplate=%s.eps.gz;   test=test "$DISPLAY" != ""
+image/vnd.djvu;             okular '%s';        nametemplate=%s.djvu;     test=test "$DISPLAY" != ""
+image/tiff;                 okular '%s';        nametemplate=%s.tiff;     test=test "$DISPLAY" != ""
+application/x-chm;          okular '%s';        nametemplate=%s.chm;      test=test "$DISPLAY" != ""
+audio/basic; vlc -t au '%s'
+audio/x-aiff; vlc -t aiff '%s'
+audio/x-gsm; vlc -t gsm '%s'
+audio/x-wav; vlc -t wav '%s'
+application/x-tar; ark '%s'; description="Tar Archive"
+application/x-gtar; ark '%s'; description="Tar-Gz Archive"
+application/zip; ark '%s'; description="Zip Archive"
+application/x-dvi;          okular '%s';        nametemplate=%s.dvi;      test=test "$DISPLAY" != ""
+application/x-gzdvi;        okular '%s';        nametemplate=%s.dvi.gz;   test=test "$DISPLAY" != ""
+application/x-bzdvi;        okular '%s';        nametemplate=%s.dvi.bz2;  test=test "$DISPLAY" != ""
+application/x-cbr;          okular '%s';        nametemplate=%s.cbr;      test=test "$DISPLAY" != ""
+application/x-cbz;          okular '%s';        nametemplate=%s.cbz;      test=test "$DISPLAY" != ""
+text/plain; view '%s'; edit=vim '%s'; compose=vim '%s'; test=test -x /usr/bin/vim; needsterminal
+video/mpeg; vlc -I rc -V caca '%s'; needsterminal; description="MPEG Video"
+video/x-mpeg; vlc -I rc -V caca '%s'; needsterminal; description="MPEG Video"
+video/mpeg-system; vlc -I rc -V caca '%s'; needsterminal; description="MPEG Video"
+video/x-mpeg-system; vlc -I rc -V caca '%s'; needsterminal; description="MPEG Video"
+audio/x-wav; vlc -I rc -V caca '%s'; nametemplate=%s.wav; needsterminal; description="WAV Audio"
+video/mpeg4; vlc -I rc -V caca '%s'; needsterminal; description="MPEG-4 Video"
+audio/mpeg; vlc -I rc -V caca '%s'; nametemplate=%s.mpg; needsterminal; description="MPEG Audio"
+audio/mpegurl; vlc -I rc -V caca '%s'; nametemplate=%s.m3u; needsterminal; description="MPEG Audio URL"
+audio/x-mp3; vlc -I rc -V caca '%s'; nametemplate=%s.mp3; needsterminal; description="MPEG Audio"
+audio/mpeg4; vlc -I rc -V caca '%s'; needsterminal; description="MPEG-4 Audio"
+application/mpeg4-iod; vlc -I rc -V caca '%s'; needsterminal; description="MPEG-4 Video"
+application/mpeg4-muxcodetable; vlc -I rc -V caca '%s'; needsterminal; description="MPEG-4 Video"
+video/x-msvideo; vlc '%s'; description="MS Video (AVI)"; test=test -n "$DISPLAY"
+video/quicktime; vlc '%s'; description="Apple Quicktime Video"; test=test -n "$DISPLAY"
+application/ogg; vlc '%s'; nametemplate=%s.ogg; description="Ogg stream"; test=test -n "$DISPLAY"
+application/x-ogg; vlc '%s'; nametemplate=%s.ogg; description="Ogg stream"; test=test -n "$DISPLAY"
+video/ogg; vlc '%s'; description="Ogg Video"; test=test -n "$DISPLAY"
+application/x-ms-asf-plugin; vlc '%s'; description="Windows Media Video"; test=test -n "$DISPLAY"
+application/x-mplayer2; vlc '%s'; description="Windows Media"; test=test -n "$DISPLAY"
+text/plain; view '%s'; edit=vi '%s'; compose=vi '%s'; needsterminal
+video/x-msvideo; vlc -I rc -V caca '%s'; needsterminal; description="MS Video (AVI)"
+video/quicktime; vlc -I rc -V caca '%s'; needsterminal; description="Apple Quicktime Video"
+application/ogg; vlc -I rc -V caca '%s'; nametemplate=%s.ogg; needsterminal; description="Ogg stream"
+application/x-ogg; vlc -I rc -V caca '%s'; nametemplate=%s.ogg; needsterminal; description="Ogg stream"
+video/ogg; vlc -I rc -V caca '%s'; needsterminal; description="Ogg Video"
+application/x-ms-asf-plugin; vlc -I rc -V caca '%s'; needsterminal; description="Windows Media Video"
+application/x-mplayer2; vlc -I rc -V caca '%s'; needsterminal; description="Windows Media"
+application/ogg; vlc '%s'; edit=vlc '%s'; test=test "$DISPLAY" != ""
+audio/basic; vlc '%s'; edit=vlc '%s'; test=test "$DISPLAY" != ""
+audio/mpeg; vlc '%s'; edit=vlc '%s'; test=test "$DISPLAY" != ""
+audio/x-aiff; vlc '%s'; edit=vlc '%s'; test=test "$DISPLAY" != ""
+audio/x-mp3; vlc '%s'; edit=vlc '%s'; test=test "$DISPLAY" != ""
+audio/x-wav; vlc '%s'; edit=vlc '%s'; test=test "$DISPLAY" != ""
+application/x-flac; vlc '%s'; edit=vlc '%s'; test=test "$DISPLAY" != ""
+audio/x-flac; vlc '%s'; edit=vlc '%s'; test=test "$DISPLAY" != ""
+application/x-audacity-project; audacity '%s'; edit=audacity '%s'; test=test "$DISPLAY" != ""
+text/html; /usr/bin/html2text '%s'; copiousoutput; description=HTML Text
+image/avs; gwenview '%s'; test=test -n "$DISPLAY"
+image/bie; gwenview '%s'; test=test -n "$DISPLAY"
+image/x-ms-bmp; gwenview '%s'; test=test -n "$DISPLAY"
+image/cmyk; gwenview '%s'; test=test -n "$DISPLAY"
+image/dcx; gwenview '%s'; test=test -n "$DISPLAY"
+image/eps; gwenview '%s'; test=test -n "$DISPLAY"
+image/fax; gwenview '%s'; test=test -n "$DISPLAY"
+image/fits; gwenview '%s'; test=test -n "$DISPLAY"
+image/gif; gwenview '%s'; test=test -n "$DISPLAY"
+image/gray; gwenview '%s'; test=test -n "$DISPLAY"
+image/jpeg; gwenview '%s'; test=test -n "$DISPLAY"
+image/pjpeg; gwenview '%s'; test=test -n "$DISPLAY"
+image/miff; gwenview '%s'; test=test -n "$DISPLAY"
+image/mono; gwenview '%s'; test=test -n "$DISPLAY"
+image/mtv; gwenview '%s'; test=test -n "$DISPLAY"
+image/x-portable-bitmap; gwenview '%s'; test=test -n "$DISPLAY"
+image/pcd; gwenview '%s'; test=test -n "$DISPLAY"
+image/pcx; gwenview '%s'; test=test -n "$DISPLAY"
+image/pdf; okular '%s'; test=test -n "$DISPLAY"
+image/x-portable-graymap; gwenview '%s'; test=test -n "$DISPLAY"
+image/pict; gwenview '%s'; test=test -n "$DISPLAY"
+image/png; gwenview '%s'; test=test -n "$DISPLAY"
+application/ogg; vlc '%s'; edit=vlc '%s'; test=test ":0.0" != ""
+audio/basic; vlc '%s'; edit=vlc '%s'; test=test ":0.0" != ""
+audio/mpeg; vlc '%s'; edit=vlc '%s'; test=test ":0.0" != ""
+audio/x-aiff; vlc '%s'; edit=vlc '%s'; test=test ":0.0" != ""
+audio/x-mp3; vlc '%s'; edit=vlc '%s'; test=test ":0.0" != ""
+audio/x-wav; vlc '%s'; edit=vlc '%s'; test=test ":0.0" != ""
+application/x-flac; vlc '%s'; edit=vlc '%s'; test=test ":0.0" != ""
+audio/x-flac; vlc '%s'; edit=vlc '%s'; test=test ":0.0" != ""
+text/*; kwrite '%s'; needsterminal
+application/x-debian-package; apper '%s'; description=Debian GNU/Linux Package; nametemplate=%s.deb
+application/x-hwp; libreoffice4.2 -view %s
+application/vnd.writerperfect; libreoffice4.2 -view %s
+application/wordperfect5.1; libreoffice4.2 -view %s
+application/x-wordperfect; libreoffice4.2 -view %s
+application/wordperfect; libreoffice4.2 -view %s
+application/vnd.lotus-wordpro; libreoffice4.2 -view %s
+application/wpwin; libreoffice4.2 -view %s
+# LibreOffice
+application/vnd.oasis.opendocument.text; libreoffice4.2 -view %s
+application/vnd.oasis.opendocument.text-flat-xml; libreoffice4.2 -view %s
+application/vnd.oasis.opendocument.text-template; libreoffice4.2 -view %s
+application/vnd.oasis.opendocument.text-web; libreoffice4.2 -view %s
+application/vnd.oasis.opendocument.text-master; libreoffice4.2 -view %s
+application/vnd.sun.xml.writer; libreoffice4.2 -view %s
+application/vnd.sun.xml.writer.template; libreoffice4.2 -view %s
+application/vnd.sun.xml.writer.global; libreoffice4.2 -view %s
+application/vnd.stardivision.writer; libreoffice4.2 -view %s
+application/vnd.stardivision.writer-global; libreoffice4.2 -view %s
+application/x-hwp; libreoffice4.2 -view %s
+application/x-starwriter; libreoffice4.2 -view %s
+application/vnd.oasis.opendocument.formula; libreoffice4.2 -view %s
+application/vnd.sun.xml.math; libreoffice4.2 -view %s
+application/vnd.stardivision.math; libreoffice4.2 -view %s
+application/x-starmath; libreoffice4.2 -view %s
+application/msword; libreoffice4.2 -view %s
+application/vnd.oasis.opendocument.spreadsheet; libreoffice4.2 -view %s
+application/vnd.oasis.opendocument.spreadsheet-flat-xml; libreoffice4.2 -view %s
+application/vnd.oasis.opendocument.spreadsheet-template; libreoffice4.2 -view %s
+application/vnd.sun.xml.calc; libreoffice4.2 -view %s
+application/vnd.sun.xml.calc.template; libreoffice4.2 -view %s
+application/vnd.stardivision.calc; libreoffice4.2 -view %s
+application/x-starcalc; libreoffice4.2 -view %s
+application/vnd.stardivision.chart; libreoffice4.2 -view %s
+application/x-starchart; libreoffice4.2 -view %s
+application/excel; libreoffice4.2 -view %s
+application/msexcel; libreoffice4.2 -view %s
+application/vnd.ms-excel; libreoffice4.2 -view %s
+application/x-msexcel; libreoffice4.2 -view %s
+application/vnd.oasis.opendocument.presentation; libreoffice4.2 -view %s
+application/vnd.oasis.opendocument.presentation-flat-xml; libreoffice4.2 -view %s
+application/vnd.oasis.opendocument.presentation-template; libreoffice4.2 -view %s
+application/vnd.sun.xml.impress; libreoffice4.2 -view %s
+application/vnd.sun.xml.impress.template; libreoffice4.2 -view %s
+application/vnd.stardivision.impress; libreoffice4.2 -view %s
+application/x-starimpress; libreoffice4.2 -view %s
+application/powerpoint; libreoffice4.2 -view %s
+application/mspowerpoint; libreoffice4.2 -view %s
+application/vnd.ms-powerpoint; libreoffice4.2 -view %s
+application/x-mspowerpoint; libreoffice4.2 -view %s
+application/vnd.oasis.opendocument.graphics; libreoffice4.2 -view %s
+application/vnd.oasis.opendocument.graphics-flat-xml; libreoffice4.2 -view %s
+application/vnd.oasis.opendocument.graphics-template; libreoffice4.2 -view %s
+application/vnd.sun.xml.draw; libreoffice4.2 -view %s
+application/vnd.sun.xml.draw.template; libreoffice4.2 -view %s
+application/vnd.stardivision.draw; libreoffice4.2 -view %s
+application/x-stardraw; libreoffice4.2 -view %s
+application/vnd.oasis.opendocument.database; libreoffice4.2 -view %s
+application/vnd.sun.xml.base; libreoffice4.2 -view %s
+application/vnd.writerperfect; libreoffice4.2 -view %s
+application/wordperfect5.1; libreoffice4.2 -view %s
+application/x-wordperfect; libreoffice4.2 -view %s
+application/wordperfect; libreoffice4.2 -view %s
+application/vnd.lotus-wordpro; libreoffice4.2 -view %s
+application/wpwin; libreoffice4.2 -view %s
+application/vnd.openofficeorg.extension; libreoffice4.2 %s 
