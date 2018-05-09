@@ -1,3 +1,9 @@
+neptune-base (4.3.6) stretch; urgency=medium
+
+  * Make sure to set glow also for the default stylerc of QtCurve
+
+ -- Leszek Lesner <leszek@zevenos.com>  Wed, 09 May 2018 14:11:11 +0200
+
 neptune-base (4.3.5) stretch; urgency=medium
 
   * Use glow effect for default button in ElementaryNeptune QtCurve Theme
