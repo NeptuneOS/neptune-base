@@ -1,3 +1,35 @@
+neptune-base (4.3.5) stretch; urgency=medium
+
+  * Use glow effect for default button in ElementaryNeptune QtCurve Theme
+  * Bump version number to 5.2
+
+ -- leszek <leszek@localhost.localdomain>  Mon, 07 May 2018 21:27:15 +0200
+
+neptune-base (4.3.4) stretch; urgency=medium
+
+  * Don't ship default akonadiserverrc
+
+ -- Leszek Lesner <leszek@zevenos.com>  Thu, 08 Mar 2018 12:47:18 +0100
+
+neptune-base (4.3.3) stretch; urgency=medium
+
+  * Replaced start-kde-neptune with 48x48 pixel image (smoother by default)
+  * Install vimrc also for root
+
+ -- Leszek Lesner <leszek@zevenos.com>  Mon, 05 Mar 2018 18:22:38 +0100
+
+neptune-base (4.3.2) stretch; urgency=medium
+
+  * Raise version to 5.0
+
+ -- Leszek Lesner <leszek@zevenos.com>  Fri, 09 Feb 2018 18:24:34 +0100
+
+neptune-base (4.3.1) stretch; urgency=medium
+
+  * Use newer QSQLITE akonadi backend
+
+ -- Leszek Lesner <leszek@zevenos.com>  Fri, 05 Jan 2018 13:40:08 +0100
+
 neptune-base (4.3.0) stretch; urgency=medium
 
   * Added zram-no-resume.conf to avoid resuming from ZRAM devices

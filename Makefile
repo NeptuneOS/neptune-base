@@ -228,6 +228,9 @@ install:
 	mkdir -p $(DESTDIR)/etc/skel
 	$(INSTALL) vimrc $(DESTDIR)/etc/skel/.vimrc
 	
+	mkdir -p $(DESTDIR)/root
+	$(INSTALL) vimrc $(DESTDIR)/root/.vimrc
+	
 	mkdir -p $(DESTDIR)/etc/dpkg/origins
 	$(INSTALL) neptune $(DESTDIR)/etc/dpkg/origins/
 	

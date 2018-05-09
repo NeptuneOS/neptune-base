@@ -1,6 +1,6 @@
 NAME="Neptune"
-VERSION_ID="4.9"
-VERSION="4.9 (refresh)"
+VERSION_ID="5.2"
+VERSION="5.2 (refresh)"
 ID=neptune
 ID_LIKE=debian
 HOME_URL="https://www.neptuneos.com/"
