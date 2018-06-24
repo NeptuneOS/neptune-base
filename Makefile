@@ -204,6 +204,8 @@ install:
 	# GTK Theme
 	install -d $(DESTDIR)/usr/share/themes/elementary
 	cp -r gtk-theme/elementary/* debian/neptune-base/usr/share/themes/elementary/
+	install -d $(DESTDIR)/usr/share/themes/Blackbird
+	cp -r gtk-theme/Blackbird/* debian/neptune-base/usr/share/themes/Blackbird/
 	install -d $(DESTDIR)/etc/gtk-3.0
 	cp -r gtk-3.0/* debian/neptune-base/etc/gtk-3.0/
 	install -d $(DESTDIR)/etc/gtk-2.0

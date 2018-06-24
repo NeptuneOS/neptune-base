@@ -1,3 +1,15 @@
+neptune-base (4.3.8) stretch; urgency=medium
+
+  * Added Blackbird gtk theme
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sun, 24 Jun 2018 18:03:46 +0200
+
+neptune-base (4.3.7) stretch; urgency=medium
+
+  * Make glow default qtcurve button for all new users
+
+ -- Leszek Lesner <leszek@zevenos.com>  Wed, 09 May 2018 18:42:58 +0200
+
 neptune-base (4.3.6) stretch; urgency=medium
 
   * Make sure to set glow also for the default stylerc of QtCurve
