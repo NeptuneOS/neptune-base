@@ -13,7 +13,7 @@ Depends: librsvg2-common, neptune-faenza-icons-minimal | neptune-faenza-icons, t
 Suggests: gnome | kde-standard | xfce4 | wmaker | vlc-nox
 Provides: kde-etcskel, zevenos-kdm
 Replaces: kde-etcskel, zevenos-kdm, base-files
-Conflicts: desktop-base
+Conflicts: desktop-base, firmware-intel-gpus
 Description: common files for the Debian Desktop
  This package contains various miscellaneous files which are used by
  Neptune Desktop installations.  Currently, it provides some

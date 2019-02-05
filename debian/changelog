@@ -1,3 +1,10 @@
+neptune-base (4.3.9) stretch; urgency=medium
+
+  * Conflict with firmware-intel-gpus
+  * Bump version to 5.5
+
+ -- Leszek Lesner <leszek@zevenos.com>  Wed, 22 Aug 2018 17:03:24 +0200
+
 neptune-base (4.3.8) stretch; urgency=medium
 
   * Added Blackbird gtk theme
