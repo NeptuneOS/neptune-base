@@ -1,3 +1,16 @@
+neptune-base (4.3.11) buster; urgency=medium
+
+  * Set shadowSize for QtCurve
+  * Set SingleClick=true in ColorSchemes
+
+ -- Leszek Lesner <leszek@zevenos.com>  Wed, 06 Feb 2019 10:25:34 +0100
+
+neptune-base (4.3.10) buster; urgency=medium
+
+  * Bump version to 6.0
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 05 Feb 2019 18:16:43 +0100
+
 neptune-base (4.3.9) stretch; urgency=medium
 
   * Conflict with firmware-intel-gpus
