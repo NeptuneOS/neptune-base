@@ -134,6 +134,7 @@ shadeMenubars=none
 shadePopupMenu=true
 shadeSliders=origselected
 shading=hsl
+shadowSize=6
 sliderAppearance=gradient
 sliderFill=true
 sliderStyle=circular
