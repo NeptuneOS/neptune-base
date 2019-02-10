@@ -1,0 +1,7 @@
+[%General]
+Driver=QMYSQL
+
+[QMYSQL]
+Name=akonadi
+ServerPath=/usr/sbin/mysqld-akonadi
+StartServer=true

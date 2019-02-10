@@ -219,7 +219,7 @@ install:
 	mkdir -p $(DESTDIR)/etc/skel/.local/share/applications
 	$(INSTALL) mimeapps.list $(DESTDIR)/etc/skel/.local/share/applications/
 	
-	#cp -r profiles/skel/local/share/applications/* $(DESTDIR)/etc/skel/.local/share/applications
+	cp -r profiles/skel/local/share/* $(DESTDIR)/etc/skel/.local/share/
 	# Mimetype mailcap for window managers who don't use xdg-open
 	mkdir -p $(DESTDIR)/etc/skel
 	$(INSTALL) mailcap $(DESTDIR)/etc/skel/.mailcap
