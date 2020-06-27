@@ -4,7 +4,7 @@ VERSION="6.0 (spike)"
 ID=neptune
 ID_LIKE=debian
 HOME_URL="https://www.neptuneos.com/"
-SUPPORT_URL="http://www.zevenos.com/forum/forumdisplay.php?fid=21"
-BUG_REPORT_URL="http://www.zevenos.com/forum/forumdisplay.php?fid=33"
+SUPPORT_URL="https://forum.neptuneos.com"
+BUG_REPORT_URL="https://forum.neptuneos.com"
 VERSION_CODENAME=buster
 PRETTY_NAME="Neptune 6"
