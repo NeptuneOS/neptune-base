@@ -44,6 +44,7 @@ basefiles() {
 
     if [ -e /etc/os-release ]; then
       dpkg-divert --package neptune-base --add --rename --divert /etc/os-release.orig /etc/os-release
+      dpkg-divert --package neptune-base --add --rename --divert /usr/lib/os-release.orig /usr/lib/os-release
     fi
     if [ -e /etc/issue ]; then
       dpkg-divert --package neptune-base --add --rename --divert /etc/issue.orig /etc/issue

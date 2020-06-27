@@ -58,8 +58,10 @@ install:
 
 	# LSB-Release
 	mkdir -p $(DESTDIR)/etc/
+	mkdir -p $(DESTDIR)/usr/lib
 	$(INSTALL) lsb-release $(DESTDIR)/etc
 	$(INSTALL) os-release $(DESTDIR)/etc
+	$(INSTALL) os-release $(DESTDIR)/usr/lib
 	$(INSTALL) issue $(DESTDIR)/etc
 	$(INSTALL) issue.net $(DESTDIR)/etc
 
@@ -235,6 +237,9 @@ install:
 	
 	mkdir -p $(DESTDIR)/etc/dpkg/origins
 	$(INSTALL) neptune $(DESTDIR)/etc/dpkg/origins/
+	
+	mkdir -p $(DESTDIR)/usr/share/python-apt/templates
+	$(INSTALL) Neptune.info $(DESTDIR)/usr/share/python-apt/templates/
 	
 	# Install asound.conf
 	$(INSTALL) asound.conf $(DESTDIR)/etc/

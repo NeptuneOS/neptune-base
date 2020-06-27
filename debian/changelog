@@ -1,3 +1,28 @@
+neptune-base (4.3.15) buster; urgency=medium
+
+  * Switch Version Codename to buster for software-properties not to freak
+    out
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 20 Aug 2019 18:56:11 +0200
+
+neptune-base (4.3.14) buster; urgency=medium
+
+  * Add Neptune.info for python-apt
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 20 Aug 2019 18:47:06 +0200
+
+neptune-base (4.3.13) buster; urgency=medium
+
+  * Add diversion for /usr/lib/os-release
+
+ -- Leszek Lesner <leszek@zevenos.com>  Thu, 15 Aug 2019 17:05:22 +0200
+
+neptune-base (4.3.12) buster; urgency=medium
+
+  * Ship akonadi configs with sane defaults
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sun, 10 Feb 2019 17:51:43 +0100
+
 neptune-base (4.3.11) buster; urgency=medium
 
   * Set shadowSize for QtCurve
