@@ -1,0 +1,17 @@
+ChangelogURI: http://packages.debian.org/changelogs/pool/%s/%s/%s/%s_%s/changelog
+
+Suite: buster
+RepositoryType: deb
+BaseURI: https://download.neptuneos.com/repos/neptune5/repo
+MatchURI: download.neptuneos.com
+Description: Neptune
+Component: main
+CompDescription: Officially supported
+
+Suite: bullseye
+RepositoryType: deb
+BaseURI: https://download.neptuneos.com/repos/neptune5/repo
+MatchURI: download.neptuneos.com
+Description: Neptune
+Component: main
+CompDescription: Officially supported
