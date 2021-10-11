@@ -58,12 +58,14 @@ install:
 
 	# LSB-Release
 	mkdir -p $(DESTDIR)/etc/
+	mkdir -p $(DESTDIR)/etc/xdg
 	mkdir -p $(DESTDIR)/usr/lib
 	$(INSTALL) lsb-release $(DESTDIR)/etc
 	$(INSTALL) os-release $(DESTDIR)/etc
 	$(INSTALL) os-release $(DESTDIR)/usr/lib
 	$(INSTALL) issue $(DESTDIR)/etc
 	$(INSTALL) issue.net $(DESTDIR)/etc
+	$(INSTALL) kcm-about-distrorc $(DESTDIR)/etc/xdg/
 
 	# KSPLASH theme
 	install -d $(DESTDIR)/usr/share/kde4/apps/ksplash/Themes/Neptune
@@ -257,6 +259,10 @@ install:
 	cp face debian/neptune-base/etc/skel/.face
 	cd $(DESTDIR)/etc/skel && ln -s .face .face.icon
 	
+	# Ship powershell bash
+	cp powerline-bash.sh $(DESTDIR)/etc/xdg/
+	cp bashrc $(DESTDIR)/etc/skel/.bashrc
+	
 	# Don't resume from ZRAM devices
-	mkdir -p $(DESTDIR)/etc/initramfs-tools/conf.d
-	$(INSTALL) zram-no-resume.conf $(DESTDIR)/etc/initramfs-tools/conf.d/
+	#mkdir -p $(DESTDIR)/etc/initramfs-tools/conf.d
+	#$(INSTALL) zram-no-resume.conf $(DESTDIR)/etc/initramfs-tools/conf.d/

@@ -12,7 +12,7 @@ Architecture: all
 Depends: librsvg2-common, neptune-faenza-icons-minimal | neptune-faenza-icons, ttf-droid-sans-mono, ttf-exo2
 Suggests: gnome | kde-standard | xfce4 | wmaker | vlc-nox
 Provides: kde-etcskel, zevenos-kdm
-Replaces: kde-etcskel, zevenos-kdm, base-files
+Replaces: kde-etcskel, zevenos-kdm, base-files, bash
 Conflicts: desktop-base, firmware-intel-gpus
 Description: common files for the Debian Desktop
  This package contains various miscellaneous files which are used by

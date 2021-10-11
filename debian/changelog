@@ -1,3 +1,38 @@
+neptune-base (4.3.20) bullseye; urgency=medium
+
+  * Fixed gtkrc widget & icon theme
+  * Added default gimprc with sane settings
+
+ -- Leszek Lesner <leszek@zevenos.com>  Mon, 11 Oct 2021 10:11:21 +0200
+
+neptune-base (4.3.19) bullseye; urgency=medium
+
+  * Install powerline prompt to use by default for Konsole
+
+ -- Leszek Lesner <leszek@zevenos.com>  Fri, 08 Oct 2021 12:41:24 +0200
+
+neptune-base (4.3.18) bullseye; urgency=medium
+
+  * Use new neptune start logo
+  * Install neptune-logo to /usr/share/pixmaps
+  * Added kcm-about-distrorc
+
+ -- Leszek Lesner <leszek@zevenos.com>  Thu, 07 Oct 2021 12:58:06 +0200
+
+neptune-base (4.3.17) bullseye; urgency=medium
+
+  * Updated for Version 7.0
+
+ -- Leszek Lesner <leszek@zevenos.com>  Wed, 06 Oct 2021 19:18:08 +0200
+
+neptune-base (4.3.16) buster; urgency=medium
+
+  * Bump version to 6.5
+  * Changed codename to Jet
+  * Fixed urls for forum and bug reports
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sat, 27 Jun 2020 03:47:02 +0200
+
 neptune-base (4.3.15) buster; urgency=medium
 
   * Switch Version Codename to buster for software-properties not to freak
