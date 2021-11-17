@@ -41,6 +41,10 @@ install:
 	$(INSTALL) profiles/kde-profile/share/apps/plasma-desktop/init/00-defaultLayout.js $(DESTDIR)/usr/share/kde4/apps/plasma-desktop/init
 	mkdir -p $(DESTDIR)/usr/share/kde4/apps/plasma-desktop/updates
 	$(INSTALL) profiles/kde-profile/share/apps/plasma-desktop/updates/addShowActivitiesManagerPlasmoid.js $(DESTDIR)/usr/share/kde4/apps/plasma-desktop/updates
+	
+	# KWin EGL config
+	mkdir -p $(DESTDIR)/etc/profile.d
+	$(INSTALL) profiles/kwin.sh $(DESTDIR)/etc/profile.d/
 
 	# KDM theme
 	mkdir -p $(DESTDIR)/etc/default/kdm.d
