@@ -2,5 +2,5 @@
 Name=Neptune
 LogoPath=/usr/share/pixmaps/neptune-logo.png
 Website=https://neptuneos.com
-Version=7.0
-Variant=Faye
+Version=8.0
+Variant=Juna

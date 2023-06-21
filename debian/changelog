@@ -1,3 +1,39 @@
+neptune-base (4.3.26) bookworm; urgency=medium
+
+  * Bump version to 8.0
+
+ -- Leszek Lesner <leszek.lesner@web.de>  Wed, 21 Jun 2023 11:47:44 +0200
+
+neptune-base (4.3.25) bookworm; urgency=medium
+
+  * Bump version to 7.9 and new codename "Juna"
+
+ -- Leszek Lesner <leszek@neptune.fritz.box>  Sun, 08 Jan 2023 16:16:07 +0100
+
+neptune-base (4.3.24) bullseye; urgency=medium
+
+  * Add new codename "Ada"
+
+ -- Leszek Lesner <leszek@neptune.fritz.box>  Sun, 14 Aug 2022 15:42:11 +0200
+
+neptune-base (4.3.23) bullseye; urgency=medium
+
+  * Bimp version name to 7.5
+
+ -- Leszek Lesner <leszek@neptune.fritz.box>  Sat, 30 Jul 2022 12:25:43 +0200
+
+neptune-base (4.3.22) bullseye; urgency=medium
+
+  * Fix typo in pretty name
+
+ -- Leszek Lesner <leszek@zevenos.com>  Mon, 17 Jan 2022 10:04:53 +0100
+
+neptune-base (4.3.21) bullseye; urgency=medium
+
+  * Force KWin to use EGL instead of GLX for better performance
+
+ -- Leszek Lesner <leszek@zevenos.com>  Wed, 17 Nov 2021 12:01:32 +0100
+
 neptune-base (4.3.20) bullseye; urgency=medium
 
   * Fixed gtkrc widget & icon theme

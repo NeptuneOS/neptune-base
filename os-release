@@ -1,10 +1,10 @@
 NAME="Neptune"
-VERSION_ID="7.0"
-VERSION="7.0 (faye)"
+VERSION_ID="8.0"
+VERSION="8.0 (Juna)"
 ID=neptune
 ID_LIKE=debian
 HOME_URL="https://www.neptuneos.com/"
 SUPPORT_URL="https://forum.neptuneos.com"
 BUG_REPORT_URL="https://forum.neptuneos.com"
-VERSION_CODENAME=bullseye
-PRETTY_NAME="Neptune 7.0
+VERSION_CODENAME=bookworm
+PRETTY_NAME="Neptune 8.0"

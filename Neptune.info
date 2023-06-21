@@ -15,3 +15,11 @@ MatchURI: download.neptuneos.com
 Description: Neptune
 Component: main
 CompDescription: Officially supported
+
+Suite: bookworm
+RepositoryType: deb
+BaseURI: https://download.neptuneos.com/repos/neptune5/repo
+MatchURI: download.neptuneos.com
+Description: Neptune
+Component: main
+CompDescription: Officially supported

@@ -9,6 +9,6 @@ CFLAGS += -fPIC
 
 DEB_MAKE_INSTALL_TARGET := install DESTDIR=$(CURDIR)/debian/neptune-base/
 
-binary-fixup/neptune-base::
-	dh_gconf --priority=15
+#binary-fixup/neptune-base::
+#	dh_gconf --priority=15
 

@@ -1,11 +1,11 @@
 Source: neptune-base
 Section: x11
 Priority: optional
-Maintainer: Leszek Lesner <leszek@zevenos.com>
+Maintainer: Leszek Lesner <leszek@petalmail.com>
 Build-Depends: cdbs, debhelper (>= 6)
 # libusplash-dev, imagemagick, librsvg2-bin
 Standards-Version: 3.9.1
-Homepage: http://www.zevenos.com/neptune
+Homepage: https://neptuneos.com
 
 Package: neptune-base
 Architecture: all
